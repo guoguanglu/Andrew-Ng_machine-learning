@@ -1,16 +1,13 @@
 # Andrew-Ng Machine Learning Notes
 This is my note on Andrew-Ng's machining learning. Thank you for asking questions.
 
-******************
-<img src="/picture/fig_ML.jpg" alt="GitHub" title="Andrew-Ng-coursera" width="50" height="50" />
+***
 [![]()][Andrew-Ng-coursera]  
 - Author: Guo Guanglu  
 - E-mail: 2360889142@qq.com
 - QQ: 2360889142  
 
-
 ***
-
 ## Content
 * [What is the machine learning](#'What+is+the+machine+learning')  
 	* Supervised learning  
