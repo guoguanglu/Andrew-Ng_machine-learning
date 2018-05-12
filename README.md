@@ -3,9 +3,9 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 
 ******************
 
--Author: Guo Guanglu  
--E-mail: 2360889142@qq.com
--QQ: 2360889142
+- Author: Guo Guanglu  
+- E-mail: 2360889142@qq.com
+- QQ: 2360889142
 
 ***
 
