@@ -14,7 +14,6 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 ***
 ### What is the machine learning
 `Arthur Samuele(1959) Machine Learning:` Field of study that gives computers the ability to learning without being explicitly programmed.
-
 `TOME Mitchell(1998):` Well-posed Learning Problem:A computer program is said to learn form experience E with respect to some task T and some performance measure P,if its performance on T, as measured by P, improves with experience E.
 
 
