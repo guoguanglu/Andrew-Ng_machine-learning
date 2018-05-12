@@ -8,8 +8,8 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 
 ***
 ## Content
-* [What](#What)  
+* [What is](#What is)  
 	* Supervised learning  
 	* Unsupervised learning    
-### What
+### What is
 
