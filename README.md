@@ -1,4 +1,4 @@
-# Andrew-Ng¡ªMachine Learning Notes
+# Andrew-Ng Machine Learning Notes
 This is my note on Andrew-Ng's machining learning. Thank you for asking questions.
 
 ******************
@@ -10,5 +10,6 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 ##Content
 * [What is the Machining Learning?](# What is the Machining Learning?)  
 	*Supervised learning  
-	*Unsupervised learning
+	*Unsupervised learning Â 
+#What is the Machining Learning?
 
