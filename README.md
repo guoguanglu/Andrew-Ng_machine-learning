@@ -2,7 +2,7 @@
 This is my note on Andrew-Ng's machining learning. Thank you for asking questions.
 
 ******************
-![](/picture/fig_ML.jpg)  
+[![/picture/fig_ML.jpg]][Andrew-Ng-coursera]  
 - Author: Guo Guanglu  
 - E-mail: 2360889142@qq.com
 - QQ: 2360889142  
@@ -60,5 +60,8 @@ With unsupervised learning there is no feedback based on the prediction results.
 https://hacpai.com/article/1490848332861  
 https://blog.csdn.net/guodongxiaren/article/details/23690801  
 https://www.coursera.org/learn/machine-learning/lecture/db3jS/model-representation  
+
+---------------------------------------------------------
+[Andrew-Ng-coursera]:https://www.coursera.org/learn/machine-learning/lecture/db3jS/model-representation
 
 
