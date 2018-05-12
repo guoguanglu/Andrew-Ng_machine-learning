@@ -11,5 +11,13 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 * [What is](#'What+is')  
 	* Supervised learning  
 	* Unsupervised learning    
+***
 ### What is
+
+**********
+
+### Reference
+https://hacpai.com/article/1490848332861  
+https://www.coursera.org/learn/machine-learning/lecture/db3jS/model-representation  
+
 
