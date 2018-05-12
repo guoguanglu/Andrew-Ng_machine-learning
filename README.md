@@ -7,9 +7,9 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 -E-mail: 2360889142@qq.com
 
 ***
-##Content
+## Content
 * [What is the Machining Learning?](# What is the Machining Learning?)  
-	*Supervised learning  
-	*Unsupervised learning  
-#What is the Machining Learning?
+	* Supervised learning  
+	* Unsupervised learning    
+# What is the Machining Learning?
 
