@@ -24,8 +24,8 @@ E= the experience of playing many games of checkers
 T= the task of playing checkers  
 P= the probability that the program will win the next game  
 * ML algorithms can be classified as follow:  
-supervixed learning and unsupervised learning   
-others: reinforcement learning , recommender systems  
+	* supervixed learning and unsupervised learning   
+	* `others`: reinforcement learning , recommender systems  
 
 ***
 
