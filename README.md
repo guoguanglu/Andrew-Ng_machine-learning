@@ -62,6 +62,6 @@ https://blog.csdn.net/guodongxiaren/article/details/23690801
 https://www.coursera.org/learn/machine-learning/lecture/db3jS/model-representation  
 
 ---------------------------------------------------------
-[Andrew-Ng-coursera]:https://www.coursera.org/learn/machine-learning/lecture/db3jS/model-representation
+[Andrew-Ng-coursera]:https://www.coursera.org/learn/machine-learning/lecture/db3jS/model-representation "Andrew Ng coursera"
 
 
