@@ -13,6 +13,7 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 	* Supervised learning  
 	* Unsupervised learning  
 * [Model and cost function](#model-and-cost-function)
+	* Model representation
 ***
 What is the machine learning
 -----------------------------
@@ -51,7 +52,11 @@ With unsupervised learning there is no feedback based on the prediction results.
 
 ***  
 Model and cost function
--------
+-------  
+#### Model representation  
+(x(i),y(i)) is called a training example,where x(i) represents ith input variables, y(i) represents ith output varibles. A list of m training examples is called a training set. We will also use X to denote the space of input values, and Y to denote the space of output values. In this example, X=Y=R.  
+To describe the supervised learning problem slightly more formally, our goal is , given a training set, to learn a function h:X to Y, so that h(x) is a `good` predictor for the corresponding value of y. For historical reasons, this function h is called a hypothesis. Seen pictorially, the process is therefore like this:  
+
 
 
 **********
