@@ -18,7 +18,7 @@ Given data abot the size of houses on the real estate market, try to predict the
 example 2:
 Given a patient with a tumor, predict whether the tumor is malignant or benign(classification: discrete output problem)
 1.2 supervised learning
-Unsupervised learning allows us to approach proach problems with little or no idea what our results should look like. We can derive structure
+Unsupervised learning allows us to approach problems with little proach or no idea what our results should look like. We can derive structure
 form data where we don't necessarily know the effect of the variables.
 We can derive this structure by clustering the data based on relationships among the variables in the data.
 With unsupervised learning there is no feedback based on the prediction results.
