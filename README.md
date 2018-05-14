@@ -12,7 +12,7 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 * [What is the machine learning](#What-is-the-machine-learning)  
 	* Supervised learning  
 	* Unsupervised learning  
-* [Model and cost function](#Model)**<br>
+* [Model and cost function](#model)
 ***
 What is the machine learning
 -----------------------------
