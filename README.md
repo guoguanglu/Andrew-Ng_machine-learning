@@ -9,11 +9,11 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 
 ***
 ## Content
-* [What is the machine learning](#'What+is+the+machine+learning')  
+* [What is the machine learning](#What+is+the+machine+learning)  
 	* Supervised learning  
-	* Unsupervised learning    
+	* Unsupervised learning  
+* [Model and cost function](#Model+and+cost+function)
 ***
-
 ### What is the machine learning
 * definition  
 	* `Arthur Samuele(1959) Machine Learning`:  Field of study that gives computers the ability to learning without being explicitly programmed.  
@@ -27,7 +27,6 @@ P= the probability that the program will win the next game
 	* `others`: reinforcement learning , recommender systems  
 
 ***
-
 #### Supervised learning
 In supervised learning, we are given a data set and already know what our correct 
 output should look like, having the idea that there is a relationship between the 
@@ -40,7 +39,6 @@ input and the output.
 	* Given a patient with a tumor, predict whether the tumor is malignant or benign(classification: discrete output problem)
 
 ***
-
 #### Unsupervised learning
 Unsupervised learning allows us to approach problems with little or no idea what our results should look like. We can derive structure
 form data where we don't necessarily know the effect of the variables.  
@@ -49,11 +47,13 @@ With unsupervised learning there is no feedback based on the prediction results.
 * example:  
 	* `clustering`: Take a collection of 1,000,000 different genes, and find a way to automatically group these genes into groups that are somehow similar or related by different variables, such as lifespan, location, roles, and so on.  
 	* `non-clustering`: The "Cocktail Party Algorithm", allows you to find structure in a chaotic environment.(i.e. identifying individual voices and music from a mesh of sounds at a cocktail party).  
+
 ***
+### Model and cost function
+
 
 
 **********
-
 ### Reference
 https://hacpai.com/article/1490848332861  
 https://blog.csdn.net/guodongxiaren/article/details/23690801  
