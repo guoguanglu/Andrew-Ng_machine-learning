@@ -12,7 +12,7 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 * [What is the machine learning](#What+is+the+machine+learning)  
 	* Supervised learning  
 	* Unsupervised learning  
-* [Model and cost function](# Model)
+* [Model and cost function](#模型)
 ***
 What is the machine learning
 -----------------------------
@@ -49,8 +49,8 @@ With unsupervised learning there is no feedback based on the prediction results.
 	* `clustering`: Take a collection of 1,000,000 different genes, and find a way to automatically group these genes into groups that are somehow similar or related by different variables, such as lifespan, location, roles, and so on.  
 	* `non-clustering`: The "Cocktail Party Algorithm", allows you to find structure in a chaotic environment.(i.e. identifying individual voices and music from a mesh of sounds at a cocktail party).  
 
-***
-Model
+***  
+模型
 -------
 
 
