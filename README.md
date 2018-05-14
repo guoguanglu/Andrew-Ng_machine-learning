@@ -9,12 +9,13 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 
 ***
 ## Content
-* [What is the machine learning](###What%20is%20the%20machine%20learning)  
+* [What is the machine learning](#What+is+the+machine+learning)  
 	* Supervised learning  
 	* Unsupervised learning  
-* [Model and cost function](#Model)
+* [Model and cost function](#Model+and+cost+function)
 ***
-### What is the machine learning
+What is the machine learning  
+-----------------------------
 * definition  
 	* `Arthur Samuele(1959) Machine Learning`:  Field of study that gives computers the ability to learning without being explicitly programmed.  
 	* `TOME Mitchell(1998):`  Well-posed Learning Problem:A computer program is said to learn form experience E with respect to some task T and some performance measure P,if its performance on T, as measured by P, improves with experience E.  
@@ -49,8 +50,8 @@ With unsupervised learning there is no feedback based on the prediction results.
 	* `non-clustering`: The "Cocktail Party Algorithm", allows you to find structure in a chaotic environment.(i.e. identifying individual voices and music from a mesh of sounds at a cocktail party).  
 
 ***
-### Model
-
+Model and cost function
+-------
 
 
 **********
