@@ -14,7 +14,7 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 	* Unsupervised learning  
 * [Model](#Model)
 ***
-What is the machine learning  
+What is the machine learning
 -----------------------------
 * definition  
 	* `Arthur Samuele(1959) Machine Learning`:  Field of study that gives computers the ability to learning without being explicitly programmed.  
