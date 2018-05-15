@@ -61,8 +61,9 @@ To describe the supervised learning problem slightly more formally, our goal is 
 When the target variable that we're trying to predict is continuous, such as in our housing example, we call the learning problem a regression problem. When y can take on only a small number of discrete values(such as if, given the living area, we wanted to predict if a dwelling is a house or an apartmentm, say), we call it a classification problem.  
 #### Cost function  
 We can measure the accuracy of our hypothesis function by using a cost function. This takes an average difference(actually a fancier version of an average) of all the results of the hypothesis with inputs from x's and the actual output y's.  
-![](http://latex.codecogs.com/gif.latex?\\frac{\\partial J}{\\partial \\theta_k^{(j)}}=\\sum_{i:r(i,j)=1}{\\big((\\theta^{(j)})^Tx^{(i)}-y^{(i,j)}\\big)x_k^{(i)}}+\\lambda \\xtheta_k^{(j)})  
-![](http://latex.codecogs.com/gif.latex? J(\theta_0,\theta_1)=\frac{1}{2m}\sum{i=1}^m(y^{^}_i-y_i)^2=\frac{1}{2m}\sum{i=1}^m(h_\theta(x_i)-y_i)^2)
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+居中格式: $$xxx$$
+$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
 **********
 ### Reference
 https://hacpai.com/article/1490848332861  
