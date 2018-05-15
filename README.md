@@ -62,6 +62,7 @@ When the target variable that we're trying to predict is continuous, such as in 
 #### Cost function  
 We can measure the accuracy of our hypothesis function by using a cost function. This takes an average difference(actually a fancier version of an average) of all the results of the hypothesis with inputs from x's and the actual output y's.  
 ![](/picture/costfunction.png)  
+jkdfjkdf
 **********
 ### Reference
 https://hacpai.com/article/1490848332861  
