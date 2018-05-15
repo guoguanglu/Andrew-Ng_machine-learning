@@ -61,7 +61,7 @@ To describe the supervised learning problem slightly more formally, our goal is 
 When the target variable that we're trying to predict is continuous, such as in our housing example, we call the learning problem a regression problem. When y can take on only a small number of discrete values(such as if, given the living area, we wanted to predict if a dwelling is a house or an apartmentm, say), we call it a classification problem.  
 #### Cost function  
 We can measure the accuracy of our hypothesis function by using a cost function. This takes an average difference(actually a fancier version of an average) of all the results of the hypothesis with inputs from x's and the actual output y's.  
-
+![](/picture/costfunction.png)  
 **********
 ### Reference
 https://hacpai.com/article/1490848332861  
