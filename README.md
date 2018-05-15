@@ -14,6 +14,7 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 	* Unsupervised learning  
 * [Model and cost function](#model-and-cost-function)
 	* Model representation
+	* Cost function
 ***
 What is the machine learning
 -----------------------------
@@ -57,7 +58,10 @@ Model and cost function
 (x(i),y(i)) is called a training example,where x(i) represents ith input variables, y(i) represents ith output varibles. A list of m training examples is called a training set. We will also use X to denote the space of input values, and Y to denote the space of output values. In this example, X=Y=R.  
 To describe the supervised learning problem slightly more formally, our goal is , given a training set, to learn a function h:X to Y, so that h(x) is a `good` predictor for the corresponding value of y. For historical reasons, this function h is called a hypothesis. Seen pictorially, the process is therefore like this:  
 ![](/picture/ML-process.png)  
-When the target variable that we're trying to predict is continuous, such as in our housing example, we call the learning problem a regression problem. When y can take on only a small number of discrete values(such as if, given the living area, we wanted to predict if a dwelling is a house or an apartmentm, say), we call it a classification problem.
+When the target variable that we're trying to predict is continuous, such as in our housing example, we call the learning problem a regression problem. When y can take on only a small number of discrete values(such as if, given the living area, we wanted to predict if a dwelling is a house or an apartmentm, say), we call it a classification problem.  
+#### Cost function  
+We can measure the accuracy of our hypothesis function by using a cost function. This takes an average difference(actually a fancier version of an average) of all the results of the hypothesis with inputs from x's and the actual output y's.
+$ J(\theta_0,\theta_1)=\frac{1}{2m}\sum{i=1}^m(y^{^}_i-y_i)^2=\frac{1}{2m}\sum{i=1}^m(h_\theta(x_i)-y_i)^2 $
 
 
 **********
