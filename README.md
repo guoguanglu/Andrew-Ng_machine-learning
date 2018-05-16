@@ -14,7 +14,9 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 	* Unsupervised learning  
 * [Model and cost function](#model-and-cost-function)
 	* Model representation
-	* Cost function
+	* Cost function  
+* [Parameter Learning](#parameter learning)
+	* Gradient Descent
 ***
 What is the machine learning
 -----------------------------
@@ -83,6 +85,16 @@ Taking any color and going along the 'circle', one would expect to get the same 
 When theta_0=360 and theta_1=0, the value of J(theta_0,theta_1) in the contour plot  gets closer to the center thus reducing the cost function error. Now giving our hypothesis function a slightly positive slope results in a better fit of the data.  
 ![](/picture/costfunction_intuition6)  
 The graph above minimizes the cost function as much as possible and consequently, the result of theta_1 and theta_0 tend to be around 0.12 and 250 respectively. Plotting those values on our graph to the right seems to put ourt point in the center of the inner most 'circle'.  
+
+***
+Parameter learning
+-------------------
+#### Gradient Descent  
+So we have our hyopythesis function and we have a way of measuring how well it fits into the data. Now we need to estimate the parameters in the hypothesis function. That's where gradient descent comes in.  
+![](/picture/gradient_3d.png)  
+For the above graph, we start at a initial point（any），to reach the bottom of the graph as soon as possible, we look around and choose the direction with the steepest descent to move towards.  
+The gradient descent algorithm is :  
+![](/picture/gradient_descent1.png)  
 
 
 **********
