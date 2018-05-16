@@ -1,5 +1,5 @@
 # Andrew-Ng Machine Learning Notes  
-This is my note on Andrew-Ng's machining learning. Thank you for asking questions.
+This is my note on Andrew-Ng's machining learning about the first week contents. Thank you for asking questions.
 
 ***
 [![](/picture/fig_ML.jpg)][Andrew-Ng-coursera]  
