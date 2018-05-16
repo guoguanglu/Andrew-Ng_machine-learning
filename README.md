@@ -2,13 +2,14 @@
 This is my note on Andrew-Ng's machining learning. Thank you for asking questions.
 
 ***
-[![](/picture/fig_ML.jpg)][Andrew-Ng-coursera]  
+[![](/picture/the_first_week/fig_ML.jpg)][Andrew-Ng-coursera]  
 - Author: Guo Guanglu  
 - E-mail: 2360889142@qq.com
 - QQ: 2360889142  
 
 ***
-## Content
+## Content  
+* [The first week content](the_first_week.md)
 * [What is the machine learning](#what-is-the-machine-learning)  
 	* Supervised learning  
 	* Unsupervised learning  
