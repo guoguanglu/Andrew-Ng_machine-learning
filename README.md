@@ -97,6 +97,15 @@ So we have our hyopythesis function and we have a way of measuring how well it f
 For the above graph, we start at a initial point（any），to reach the bottom of the graph as soon as possible, we look around and choose the direction with the steepest descent to move towards.  
 The gradient descent algorithm is :  
 ![](/picture/gradient_descent1.png)  
+#### Gradient Descent intuition  
+According to the below formula:  
+![](/picture/gradient_descent_formula.png)  
+By the above graph,  we look the derivative term as a number, alpha is bigger than zero, theta_11 eventually converges to its minimum value. The following graph shows that when the slope is negative, the value of theta_1 increases and when it is positive, the value of theta_1 decreases.  
+![](/picture/gradient_descent2.png)  
+On a side note, we should adjust our parameter alpha to ensure that the gradient descent algorithm converages in a reasonable time. Failure to converge or too much time to obtain the mininmum value imply that ourt step size is wrong.  
+![](/picture/gradient_descent3.png)  
+`How does gradient descent converge with a fixed step size alpha?`  
+![](/picture/gradient_descent4.png)  
 
 
 **********
