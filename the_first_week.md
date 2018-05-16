@@ -8,7 +8,7 @@ This is my note on Andrew-Ng's machining learning about the first week contents.
 - QQ: 2360889142  
 
 *** 
-[**BACK README**](readme)  
+[**BACK README**](readme.md)  
 
 ## Content
 * [What is the machine learning](#what-is-the-machine-learning)  
