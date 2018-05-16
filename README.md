@@ -65,7 +65,16 @@ We can measure the accuracy of our hypothesis function by using a cost function.
 To break it apart, it is 1/2 x' where x' is the mean of the squares of h(xi)-yi, or the difference between the predicted value and the actual value.  
 This function is otherwise called the "Squared error function", or "Mean squared error". The mean is halved(1/2) as a convenience for the computation of the gradient descent, as the derivative term of the square function will cancel out the 1/2 term. The following image
 summarizes what the cost function does:  
-![](/picture/costfunction2.png)
+![](/picture/costfunction2.png)  
+#### Cost function intuition I  
+If we try to think of it in visual terms, our training data set is scattered on the x-y  plane. We are trying to make a straight line(defined by h_theta(x)) which passes through these scattered data points.  
+Our objective is to get the best possible line. The best possible line will be such so that the average squared vertical distances of the scattered points from the line will be the least. Ideally, the line should pass through all the points of our training data set. In such a case, the value of J(theta_0,theta_1) will be 0. The following example shows the ideal situation where we have a cost function of 0.  
+![](/picture/costfunction_intuition1.png)  
+When theta_1=1, we get a slope of 1 which goes through every single data point in our model. Conversely, when theta_1=0.5, we see the vertical distance from ourt fit to the data points increase.  
+![](/picture/costfunction_intuition2.png)  
+This increases our cost function to 0.58. Plotting several other points yields to the following graph:  
+![](/picture/costfunction_intuition3.png)  
+Thus as a goal, we should try to minimize the cost function. In this case, theata_1=1 is our global minimum.
 **********
 ### Reference
 https://hacpai.com/article/1490848332861  
