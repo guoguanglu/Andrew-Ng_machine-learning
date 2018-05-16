@@ -19,13 +19,6 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 	* Gradient descent
 	* Gradient descent intuiton
 	* gradient descent for linear regression
-* [Linear algebra review](#linear-algebra-review)  
-	* Matrices and Vectors  
-	* Addition and scalar multiplication  
-	* Matrix vector multiplication  
-	* Matrix matrix multiplication
-	* Matrix multiplication properties
-	* Inverse and transpose
 	
 ***
 What is the machine learning
@@ -122,22 +115,6 @@ The process of derivation is as follow:
 ![](/picture/gradient_descent6.png)  
 where j represents jth variable responding to jth constant parameter.  
 So, this is simply gradient descent on the original cost function J. This method looks at every example in the entire training set on every step, and is called **batch gradient descent**. Note that, while gradient descent can be susceptible to local minima in general, the optimization problem we have posed here for linear regression has only one global, and no other local, optima; thus gradient descent always converges(assuming the learning rate alpha is not too large) to the global minimum. Indeed, J is a convex quadratic function. Here is an example of gradient descent as it is run to minimize a quadratic function. 
-
-***
-Linear algebra review  
--------------------------
-#### Matrices and Vectors  
-* `Matrices` are 2-dimensional arrays.  
-* A `vector` is a matrix with one column and many rows.  
-**Notation and terms**:  
-* A_ij refers to the element in the ith row and jth column of matrix A.  
-* A vector with 'n' rows is referred to as an 'n'-dimensional vector.  
-* v_i refers to the element in the ith row of the vector.  
-* In general, all our vectors and matrices will be 1-indexed. Note that for some programming languages, the arrays are 0-indexed.  
-* `Matrices` are usually denoted by `uppercase` names while `vectors` are `lowercase`.  
-* "Scalar" means that an object is a single value, not a vector or matrix.  
-* R refers to set of scalar real numbers.  
-* R^n refers to the set of n-dimensional vectors of real numbers.  
 
 **********
 ### Reference
