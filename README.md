@@ -110,7 +110,7 @@ On a side note, we should adjust our parameter alpha to ensure that the gradient
 When specifically applied to the case of linear regression, a new form of the gradient descent equation can be derived. We can substitube our actual cost function and out actual hypothesis function an modify the equation to:  
 ![](/picture/gradient_descent5.png)  
 where i represents ith data  
-The process of derivation is as follow:
+The process of derivation is as follow:  
 ![](/picture/gradient_descent6.png)  
 where j represents jth variable responding to jth constant parameter.  
 So, this is simply gradient descent on the original cost function J. This method looks at every example in the entire training set on every step, and is called **batch gradient descent**. Note that, while gradient descent can be susceptible to local minima in general, the optimization problem we have posed here for linear regression has only one global, and no other local, optima; thus gradient descent always converges(assuming the learning rate alpha is not too large) to the global minimum. Indeed, J is a convex quadratic function. Here is an example of gradient descent as it is run to minimize a quadratic function.
