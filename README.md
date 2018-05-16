@@ -16,7 +16,9 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 	* Model representation
 	* Cost function  
 * [Parameter Learning](#parameter learning)
-	* Gradient Descent
+	* Gradient descent
+	* Gradient descent intuiton
+	* gradient descent for linear regression
 ***
 What is the machine learning
 -----------------------------
