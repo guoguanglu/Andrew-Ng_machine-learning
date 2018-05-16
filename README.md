@@ -74,7 +74,17 @@ When theta_1=1, we get a slope of 1 which goes through every single data point i
 ![](/picture/costfunction_intuition2.png)  
 This increases our cost function to 0.58. Plotting several other points yields to the following graph:  
 ![](/picture/costfunction_intuition3.png)  
-Thus as a goal, we should try to minimize the cost function. In this case, theata_1=1 is our global minimum.
+Thus as a goal, we should try to minimize the cost function. In this case, theata_1=1 is our global minimum.  
+#### Cost function intuition II  
+A contour plot is a graph that contains many contour lines. A contour line of a two variable function has a constannt value at all points of the same line. An example of such a graph is the one to the right below.  
+![](/picture/costfunction_intuition4.png)  
+Taking any color and going along the 'circle', one would expect to get the same value of the cost function. For example, the three green points found on the green line above have the same value for J(theat_0,theta_1) and as a result, they are found along the same line. The circled x displays the value of the cost function for the graph on the left when theta_0=800 and theta_1=-0.15. Taking another h(x) and plotting its contour plot, one gets the following graphs:  
+![](/picture/costfunction_intuition5.png)  
+When theta_0=360 and theta_1=0, the value of J(theta_0,theta_1) in the contour plot  gets closer to the center thus reducing the cost function error. Now giving our hypothesis function a slightly positive slope results in a better fit of the data.  
+![](/picture/costfunction_intuition6)  
+The graph above minimizes the cost function as much as possible and consequently, the result of theta_1 and theta_0 tend to be around 0.12 and 250 respectively. Plotting those values on our graph to the right seems to put ourt point in the center of the inner most 'circle'.  
+
+
 **********
 ### Reference
 https://hacpai.com/article/1490848332861  
