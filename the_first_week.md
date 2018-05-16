@@ -19,6 +19,7 @@ This is my note on Andrew-Ng's machining learning about the first week contents.
 	* Gradient descent
 	* Gradient descent intuiton
 	* gradient descent for linear regression
+* [Reference](#reference)
 	
 ***
 What is the machine learning
