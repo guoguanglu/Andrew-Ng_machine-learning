@@ -10,7 +10,26 @@ This is my note on Andrew-Ng's machining learning about the second week contents
 *** 
 [**BACK README**](README.md)  
 
-## Content
+## Content  
+* [Multiple Features](#multiple-features)  
+  
+ ***
+ ### Multiple features  
+ Linear regression with multiple variables is also known as `multivariate linear regression`.  
+ We now introduce notation for equations where we can have any number of input variables.  
+ ```
+ x^i_j=value of feature j in the i^th training example.  
+ x^i = the input(features) of the i^the training example.  
+ m = the number of training examples  
+ n = teh number of features  
+ ```  
+ The multivariable form of the hypothesis function accommodating these multiple features is as follows:  
+ `h_theta(x)=theta_0 + theta_1 * x1 + theta_2 * x2 + theta_3 * x3 + ... + theta_n * n`  
+ Using the definition of matrix multiplication, our multivariable hypothesis function can be concisely represented as:  
+ ![](/picture/the_second_week/multiple_feature_formula.png)  
+ `note: where x_0 = 1`  
+ 
+
 **********
 ### Reference
 https://hacpai.com/article/1490848332861  
