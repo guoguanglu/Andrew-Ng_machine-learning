@@ -20,6 +20,12 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 		* Gradient descent
 		* Gradient descent intuiton
 		* gradient descent for linear regression
+* [The second week content](the_second_week.md)
+	* Multiple features  
+	* Gradient descent for multiple variables  
+	* Gradient descent in practice I - feaure scaling  
+	* Gradient descent in practice II - learning rate  
+	* Features and polynomial regression  
 	
 **********
 ### Reference
