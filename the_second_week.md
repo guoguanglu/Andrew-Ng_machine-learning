@@ -11,10 +11,13 @@ This is my note on Andrew-Ng's machining learning about the second week contents
 [**BACK README**](README.md)  
 
 ## Content  
-* [Multiple Features](#multiple-features)  
+ * [Multivariate linear regression](#multivariate-linear-regression)
+  * Multiple features
+  * Gradient descent for multiple variables
   
  ***
- ### Multiple features  
+ ### Multivariate linear regression  
+ #### Multiple features  
  Linear regression with multiple variables is also known as `multivariate linear regression`.  
  We now introduce notation for equations where we can have any number of input variables.  
  ```
@@ -28,7 +31,13 @@ This is my note on Andrew-Ng's machining learning about the second week contents
  Using the definition of matrix multiplication, our multivariable hypothesis function can be concisely represented as:  
  ![](/picture/the_second_week/multiple_feature_formula.png)  
  `note: where x_0 = 1`  
- 
+ #### Gradient descent for multiple  
+ The gradient descent equation itself is generally the same form; we just have to repeat it for our 'n' features.
+ The equation is :  
+ ![](/picture/the_second_week/GD_multvar_formula.png)  
+ The following image compares gradient descent with one variable to gradient descent with multiple variables:  
+ ![](/picture/the_second_week/GD_fig)  
+  
 
 **********
 ### Reference
