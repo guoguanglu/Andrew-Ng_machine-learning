@@ -14,6 +14,8 @@ This is my note on Andrew-Ng's machining learning about the second week contents
 * [Multivariate linear regression](#multivariate-linear-regression)
 	* Multiple features
 	* Gradient descent for multiple variables
+	* Gradient descent in practice I - feature scaling  
+	
   
  ***
  ### Multivariate linear regression  
@@ -51,6 +53,15 @@ This is my note on Andrew-Ng's machining learning about the second week contents
  where miu_i is the `average` of all the values for feature(i) and s_i is the range of values (that is, max-min)or s_i is the standard deviation.  
   For example, if x_i represents housing prices with a range of 100 to 2000 and a mean value of 1000, then,  
   x_i = (price - 1000)/1900  
+  #### Gradient descent in practice II - learning rate  
+  * Debugging gradient descent. Make a plot with number of iterations on the x-axis. Now plot the cost function, J(theta) over the number of iterations of gradient descent. If J(theta) ever increases, then you probably need to decrease `alpha`.  
+  * Automatic convergence test. Declare convergence if J(theta) decreases by less than E in one iteration, where E is some small value such as 10^-3. Hower in practice it's difficult to choose this threshold value.  
+  ![](/picture/the_second_week/GD_learningrate1.png)  
+  It has been proven that if learning rate `alpha` is sufficiently small, then J(theta) will decrease on every iteration.  
+  ![](/picture/the_second_week/GD_learningrate2.png)  
+  Notes:  
+  * If alpha is too small: slow convergence.  
+  * If alpha is too large: may not decrease on every iteration and thus may not converge.  
   
   
 
