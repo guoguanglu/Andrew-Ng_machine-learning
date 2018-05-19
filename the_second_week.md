@@ -75,7 +75,7 @@ Multivariate linear regression
   For the cubic version,  
   h_theta(x)=theta_0 + theta_1*x_1 + theta_2*x_1^2 + theta_3*x_1^3   
   we can create new features x2=x_1^2, x_3=x_1^3 , which converts cubic into linear. One important thing to keep in mind, if you choose this way ,then feature scaling becomes very important.  
-  Computing parameters 
+  Computing parameters
   ---------  
   #### Normal equation  
   Gradient descent gives one way of mininminzing J. Another method can also do this, called `Normal Equation`. This method can find the optimum theta without iteration. The equation is given below:  
