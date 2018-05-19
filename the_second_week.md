@@ -17,7 +17,7 @@ This is my note on Andrew-Ng's machining learning about the second week contents
 	* Gradient descent in practice I - feature scaling  
 	* Gradient descent in practice II - learning rate  
 	* Features and polynomial regression  
-* [Computing parameters analytically](#computing parameters analytically)
+* [Computing parameters analytically](#computing-parameters-analytically)
 	* Normal equation  
 	* Normal equation noninvertibility  
 
