@@ -18,7 +18,8 @@ This is my note on Andrew-Ng's machining learning about the second week contents
 	
   
  ***
- ### Multivariate linear regression  
+Multivariate linear regression  
+------------
  #### Multiple features  
  Linear regression with multiple variables is also known as `multivariate linear regression`.  
  We now introduce notation for equations where we can have any number of input variables.  
