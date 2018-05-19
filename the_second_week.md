@@ -11,9 +11,9 @@ This is my note on Andrew-Ng's machining learning about the second week contents
 [**BACK README**](README.md)  
 
 ## Content  
- * [Multivariate linear regression](#multivariate-linear-regression)
-  * Multiple features
-  * Gradient descent for multiple variables
+* [Multivariate linear regression](#multivariate-linear-regression)
+	* Multiple features
+	* Gradient descent for multiple variables
   
  ***
  ### Multivariate linear regression  
