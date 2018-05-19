@@ -33,7 +33,7 @@ This is my note on Andrew-Ng's machining learning about the second week contents
  Using the definition of matrix multiplication, our multivariable hypothesis function can be concisely represented as:  
  ![](/picture/the_second_week/multiple_feature_formula.png)  
  `note: where x_0 = 1`  
- #### Gradient descent for multiple variable  
+ #### Gradient descent for multiple variables  
  The gradient descent equation itself is generally the same form; we just have to repeat it for our 'n' features.
  The equation is :  
  ![](/picture/the_second_week/GD_multvar_formula.png)  
