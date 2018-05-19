@@ -36,7 +36,7 @@ This is my note on Andrew-Ng's machining learning about the second week contents
  The equation is :  
  ![](/picture/the_second_week/GD_multvar_formula.png)  
  The following image compares gradient descent with one variable to gradient descent with multiple variables:  
- ![](/picture/the_second_week/GD_fig)  
+ ![](/picture/the_second_week/GD_fig.png)  
   
 
 **********
