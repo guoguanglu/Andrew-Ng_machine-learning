@@ -70,11 +70,13 @@ This is my note on Andrew-Ng's machining learning about the second week contents
   * If alpha is too large: may not decrease on every iteration and thus may not converge.  
   #### Features and polynomial regression  
   We can combine multiple features into one. For example, we can combine x_1 and x_2 into a new feature x_3 by taking x_1*x_2.  
-  * Polynomial regression  
+  * Polynomial regression   
   Our hypothesis funciton need not be linnear(a straight line)if that does not fit the data well. We can change the behavior or curve of our hypothesis function by making it a quadratic, cubic or square root.
   For the cubic version,  
   h_theta(x)=theta_0 + theta_1*x_1 + theta_2*x_1^2 + theta_3*x_1^3   
   we can create new features x2=x_1^2, x_3=x_1^3 , which converts cubic into linear. One important thing to keep in mind, if you choose this way ,then feature scaling becomes very important.  
+  
+  
 Computing 
 ---------  
   #### Normal equation  
