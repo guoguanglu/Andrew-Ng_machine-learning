@@ -17,7 +17,10 @@ This is my note on Andrew-Ng's machining learning about the second week contents
 	* Gradient descent in practice I - feature scaling  
 	* Gradient descent in practice II - learning rate  
 	* Features and polynomial regression  
-	
+* [Computing parameters](#computing-parameters)  
+	* Normal equation  
+	* Normal equation noninvertibility  
+
   
  ***
 Multivariate linear regression  
@@ -72,6 +75,14 @@ Multivariate linear regression
   For the cubic version,  
   h_theta(x)=theta_0 + theta_1*x_1 + theta_2*x_1^2 + theta_3*x_1^3   
   we can create new features x2=x_1^2, x_3=x_1^3 , which converts cubic into linear. One important thing to keep in mind, if you choose this way ,then feature scaling becomes very important.  
+  Computing parameters 
+  ---------  
+  #### Normal equation  
+  Gradient descent gives one way of mininminzing J. Another method can also do this, called `Normal Equation`. This method can find the optimum theta without iteration. The equation is given below:  
+  ![](/picture/the_second_week/normal_equation1.png)  
+  **Note**: there is no need to do feature scaling with the normal equation.  
+  ![](/picture/the_second_week/normal_equation2.png)  
+  With the normal equation, computing the inversion has complexity O(n^3). So if we have a very large number of features, the normal equation will be slow. In practice, when n exceeds 10,000 it might be a good time to go from a normal solution to an iterative process.  
   
   
 
