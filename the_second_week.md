@@ -37,6 +37,21 @@ This is my note on Andrew-Ng's machining learning about the second week contents
  ![](/picture/the_second_week/GD_multvar_formula.png)  
  The following image compares gradient descent with one variable to gradient descent with multiple variables:  
  ![](/picture/the_second_week/GD_fig.png)  
+ #### Gradient descent in practice I - feature scaling  
+ We can speed up gradient descent by having each of our input values in roughly the same range. This is besause theta will descend        quickly on small ranges and slowly on large ranges, and so will oscillate inefficiently down to the optimum when the variables are  very uneven.  
+ The vay to prevent this is to modify the ranges of our input variables so that they are all roughly the same. Ideally:  
+ -1<=x(i)<=1  
+ or  
+ -0.5<=x(i)<=0.5  
+ These aren't exact requirements; we are only trying to speed things up. The goal is to get all input variables into roughly one of these ranges, give or take a few.  
+ Two technidques to help with this are:  
+ * **feature scaling**: involve dividing the input values by the range(i.e. the maximum value minus the minimum value) of the input variablem resulting in a new range of just 1.  
+ * **mean normalization**: involves subtracting the average value for an input variable from the values for that input variable resulting in a new average value for the input variable of just zero. To implement both of thes techniques, adjust your input values as shown in this formula:  
+ x_i = (x_i - miu_i)/s_i  
+ where miu_i is the `average` of all the values for feature(i) and s_i is the range of values (that is, max-min)or s_i is the standard deviation.  
+  For example, if x_i represents housing prices with a range of 100 to 2000 and a mean value of 1000, then,  
+  x_i = (price - 1000)/1900  
+  
   
 
 **********
