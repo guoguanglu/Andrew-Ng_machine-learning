@@ -20,6 +20,7 @@ This is my note on Andrew-Ng's machining learning about the second week contents
 * [Computing parameters analytically](#computing-parameters-analytically)
 	* Normal equation  
 	* Normal equation noninvertibility  
+* [Programming tips from mentors](programming-tips-from-mentors)  
 
   
  ***
@@ -84,8 +85,8 @@ Computing parameters analytically
   ![](/picture/the_second_week/normal_equation1.png)  
   **Note**: there is no need to do feature scaling with the normal equation.  
   ![](/picture/the_second_week/normal_equation2.png)  
-  With the normal equation, computing the inversion has complexity O(n^3). So if we have a very large number of features, the normal equation will be slow. In practice, when n exceeds 10,000 it might be a good time to go from a normal solution to an iterative process.   
-  ****
+  With the normal equation, computing the inversion has complexity O(n^3). So if we have a very large number of features, the normal equation will be slow. In practice, when n exceeds 10,000 it might be a good time to go from a normal solution to an iterative process.  
+  
   #### Normal equation noninvertibility  
   When implementing the normal equation in octave we want to use the `pinv` function rather than `inv`. The `pinv` function will give you a value of theta even if X^TX is not invertible.  
   If X^TX is **noninvertible**, the common cases might be having:  
@@ -94,6 +95,13 @@ Computing parameters analytically
   
   Solution to be the above problems include deleting a feature that is linearly dependent with another or deleting one or more features when there are too many features.  
   
+***
+Programming tips from mentors  
+-----  
+**Getting help**:  
+1. The submit grader uses a different test case than what is in the PDF file. These test cases use a different size of data set and are more sensitive to small errors than the ex test cases. Your code must work correctly with any size of data set.  
+2. Each programming assignment has a "Discussions" area in the Forum. In this section you can often find "unit tests". These are additional test cases, which give you a command to type, and provides the expected results. It is always a good idea to test your functions using the unit tests before submitting to the grader.  
+
   
   
 
