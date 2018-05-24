@@ -45,7 +45,7 @@ g(z) = 1/(1+e^(-z))
 
 The image shows us what the sigmoid function looks like:  
 ![](/picture/the_third_week/logistic1.png)  
-h_theta(x) will give us the ** probability that our output is 1.  
+h_theta(x) will give us the **probability** that our output is 1.  
 
 ### Decision boundary  
 
