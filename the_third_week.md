@@ -31,8 +31,21 @@ This is my note on Andrew-Ng's machining learning about the third week contents.
 Classification and representation  
 -------  
 ### Classification  
+To attempt classification, one method is to use linear regression and map all predictions greater than 0.5 as a 1 and less than 0.5 as a 0. However, this method doesn't work well because classification is not actually a linear function.  
+The clasification problem is just like the regression problem, except that the values we now want to predict take on only a small number of discrete values. For now, we will focus on the **binary classification problem** in which y can take on only two values, 0 and 1. (Most of what we say here will also generalize to the multiple-class case.) For instance, if we are trying to build a spam mail, and 0 otherwise. Hence, y in {0, 1} . 0 is also called the negative class, and 1 the positive class, and they are sometimes also denoted by the symbols "-" and "+". Given x^(i), the corresponding y^(i) is also called the label for the training example.  
 
 ### Hypothesis representation  
+We need to change the form for our hypotheses h_theta(x) to satisfy 0<= h_theta(x) <=1.  
+Our new form uses the "Sigmoid Function", also called the  "Logistic Function":
+```
+h_theta(x) = g(theta^T*x)  
+z = theta^T*x  
+g(z) = 1/(1+e^(-z))  
+```  
+
+The image shows us what the sigmoid function looks like:  
+![](/picture/the_third_week/logistic1.png)  
+h_theta(x) will give us the ** probability that our output is 1.  
 
 ### Decision boundary  
 
