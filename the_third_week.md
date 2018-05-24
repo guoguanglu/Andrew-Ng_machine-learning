@@ -68,4 +68,7 @@ Solving the problem of overfitting
 
 ***
 ## Reference  
-https://www.coursera.org/learn/machine-learning/supplement/fDCQp/classification
+https://www.coursera.org/learn/machine-learning/supplement/fDCQp/classification  
+
+---------------------------------------------------------
+[Andrew-Ng-coursera]:https://www.coursera.org/learn/machine-learning/lecture/db3jS/model-representation "Andrew Ng coursera"
