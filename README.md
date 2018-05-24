@@ -32,11 +32,26 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 		* Normal equation noninvertibility  
 	* Submitting programming assignments
 		* Working on and Submitting programming assignments  
+* [The third week content](the_third_week.md)  
+	* Classification and representation  
+		* Classification  
+		* Hypothesis representation  
+		* Decision boundary  
+	* Logistic regression model  
+		* Cost function  
+		* Simplified cost function and gradient descent  
+		* Advanced optimization  
+	* Multiclass classification  
+		* Multiclass classification:One-vs-all  
+	* Solving the problem of overfitting  
+		* The problem of overfitting  
+		* Cost function  
+		* Regularized linear regression  
+		* Regularized logistic regression  
+
 
 **********
-### Reference
-https://hacpai.com/article/1490848332861  
-https://blog.csdn.net/guodongxiaren/article/details/23690801  
+### Reference  
 https://www.coursera.org/learn/machine-learning/lecture/db3jS/model-representation  
 
 ---------------------------------------------------------
