@@ -120,9 +120,7 @@ where j represents jth variable responding to jth constant parameter.
 So, this is simply gradient descent on the original cost function J. This method looks at every example in the entire training set on every step, and is called **batch gradient descent**. Note that, while gradient descent can be susceptible to local minima in general, the optimization problem we have posed here for linear regression has only one global, and no other local, optima; thus gradient descent always converges(assuming the learning rate alpha is not too large) to the global minimum. Indeed, J is a convex quadratic function. Here is an example of gradient descent as it is run to minimize a quadratic function. 
 
 **********
-### Reference
-https://hacpai.com/article/1490848332861  
-https://blog.csdn.net/guodongxiaren/article/details/23690801  
+### Reference  
 https://www.coursera.org/learn/machine-learning/lecture/db3jS/model-representation  
 
 ---------------------------------------------------------
