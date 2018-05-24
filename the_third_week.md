@@ -14,11 +14,11 @@ This is my note on Andrew-Ng's machining learning about the third week contents.
 * [Classification and representation](#classification-and-representation)  
 	* Classification  
 	* Hypothesis representation  
-	* Decision Boundary    
+	* Decision boundary    
 * [Logistic regression model](#logistic-regression-model)  
-	* Cost Function    
+	* Cost function    
 	* Simplified cost function and gradient descent  
-  * Advanced Optimization  
+  	* Advanced optimization  
 * [Multiclass classification](#multiclass-classification)  
   * Multiclass classification:One-vs-all  
 * [Solving the problem of overfitting](#solving-the-problem-of-overfitting)  
@@ -27,8 +27,43 @@ This is my note on Andrew-Ng's machining learning about the third week contents.
   * Regularized linear regression  
   * Regularized logistic regression  
 
+***  
 Classification and representation  
--------
+-------  
+### Classification  
+
+### Hypothesis representation  
+
+### Decision boundary  
+
+
+***  
+Logistic regression model  
+------  
+### Cost function  
+
+### Simplified cost function and gradient descent  
+
+### Advanced optimization  
+
+
+***  
+Multiclass classification  
+----  
+### Multiclass classification:One-vs-all  
+
+
+***  
+Solving the problem of overfitting  
+-----  
+### The problem of overfitting  
+
+### Cost function  
+
+### Regularized linear regression  
+
+### Regularized logistic regression  
+
 
 
 ***
