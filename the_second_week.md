@@ -107,8 +107,6 @@ Programming tips from mentors
 
 **********
 ### Reference
-https://hacpai.com/article/1490848332861  
-https://blog.csdn.net/guodongxiaren/article/details/23690801  
 https://www.coursera.org/learn/machine-learning/lecture/db3jS/model-representation  
 
 ---------------------------------------------------------
