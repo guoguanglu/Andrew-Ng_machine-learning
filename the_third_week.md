@@ -113,7 +113,7 @@ Solving the problem of overfitting
 -----  
 ### The problem of overfitting  
 When we fit  training data, three conditions are shown as follows:  
-![](overfitting.png)  
+![](/picture/the_third_week/overfitting.png)  
 The first plot called underfitting or high bias is when the form ourt hypothesis function h maps poorly to the trend of the data.  
 The second plot called just right can fit the data very well, which can give us a good prediction.  
 The third plot called overfitting or high variance is caused by a hypothesis function that fits the available data but does not generalize well to predict new data.  
