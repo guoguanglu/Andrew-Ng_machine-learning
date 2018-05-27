@@ -126,6 +126,12 @@ There are two main options to address the issue of overfitting:
 * Regularization works well when we have a lot of slightly useful features.  
 
 ### Cost function  
+Adding the term of regularization in the cost function, we can get the cost function as follows:  
+![](/picture/the_third_week/regularization.png)  
+The lambda is the **regularization parameter**. It determines how much the costs of our theta parameters are inflated.  
+Using the above cost function with the extra summation, we can smooth the output of our hypothesis function to reduce overfitting.  
+* If lambda is chosen to be too large, which will cause underfitting.  
+* If lambda is chosen to be too small, which will cause overfitting.  
 
 ### Regularized linear regression  
 
