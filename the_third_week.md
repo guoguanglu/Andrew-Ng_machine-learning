@@ -134,6 +134,18 @@ Using the above cost function with the extra summation, we can smooth the output
 * If lambda is chosen to be too small, which will cause overfitting.  
 
 ### Regularized linear regression  
+We can both use gradient descent and normal equation to get theta.  
+* Gradient descent  
+We will modify our gradient descent function to separate out theta_0 from the rest of the parameters because we do not want to penalize theta_0.  
+![](/picture/the_third_week/regularization_LR1.png)  
+We get terms of theta_j together, the below formulation can be shown:  
+![](/picture/the_third_week/regularization_LR2.png)  
+Intuitively you can see it as reducing the value of theta_j by some amount on every update.(alpha, m, lambda are all larger than 0)  
+* Normal equation  
+To add in regularization, the equation is the same as our original, except that we add another term inside the parentheses:  
+![](/picture/the_third_week/regularization_LR3.png)  
+L is a matrix with 0 at the top left and 1's down the diagonal, with 0's everywhere else. It should have dimension(n+1)\*(n+1).Intuitively, this is the identity matrix(though we are not including x_0), multiplied with a single real number lambda.  
+Recall that if m<n, then X^TX is non-invertible. However, when we add the term lambda\*L, then X^TX+lambda\*L becomes invertible.  
 
 ### Regularized logistic regression  
 
