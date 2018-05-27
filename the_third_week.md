@@ -67,6 +67,14 @@ For the above plots, we can find following formulations:
 ![](/picture/the_third_week/logistic5.png)  
 
 ### Simplified cost function and gradient descent  
+According to the former Cost function , we can get the entire cost function of the logistic regression as follows:  
+![](/picture/the_third_week/logistic6.png)  
+A vectorized implementation is:  
+![](/picture/the_third_week/logistic7.png)  
+the general form of gradient descent of logistic regression is similar to linear regression:  
+![](/picture/the_third_week/logistic8.png)  
+A vectorized implementation is:  
+![](/picture/the_third_week/logistic9.png)  
 
 ### Advanced optimization  
 
