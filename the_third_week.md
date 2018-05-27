@@ -77,7 +77,24 @@ A vectorized implementation is:
 ![](/picture/the_third_week/logistic9.png)  
 
 ### Advanced optimization  
-
+"Conjugate gradient", "BFGS" and "L-BFGS" are more sophisticated, faster ways to optimize theta that can be used instead of gradient descent. We suggest that you should not write these more sophisticated glgorithms yourself(unless you are an expert in numerical computing)but use the libraries instead, as they're already tested and highly optimized. Octave provides them.  
+We first need to probide a function that evaluates the following two functions for a given input value theta:  
+J(theta)  
+dJ(theta)  
+We can write a single function that returns both of these:  
+```#matlab
+function [jVal, gradient] = costFunction(theta)  
+	jVal = [code to compute J(theta)];  
+	gradient = [code to compute derivative of J(theta)];  
+end  
+```  
+Then we can use octave's "fminunc()" optimization algorithm along with the "optimset()"function that creates an object containing the options we want to send to "fminunc".  
+```
+options = optimset('GradObj', 'on', 'MaxIter', 100);  
+initilTheta = zeros(2, 1);  
+[optTheta, functionVal, exitFlag] = fminunc(@costFunction, initialTheta, options);  
+```  
+We give to the function "fminunc()"our cost function, our initial vector of theta values, and the "options"object that we created beforehand.  
 
 ***  
 Multiclass classification  
