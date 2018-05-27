@@ -102,7 +102,7 @@ Multiclass classification
 ### Multiclass classification:One-vs-all  
 We are basically choosing one clas and then lumping all the others into a single second class. We do this repeatedly, applying binary logistic regression to each case, and then use the hypothesis that returned the highest value as our prediction.  
 The following image shows how one could classify 3 classes:  
-![](/picture/the_third_week/One_vs_all.png)  
+![](/picture/the_third_week/one_vs_all.png)  
 **Two notes:**  
 1. Train a logistic regression classifier h_theta(x) for each class to predict the probability that y=i.  
 2. To make a prediction on a new x, pick the class that maximizes h_theta(x)  
