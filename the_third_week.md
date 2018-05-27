@@ -148,8 +148,8 @@ L is a matrix with 0 at the top left and 1's down the diagonal, with 0's everywh
 Recall that if m<n, then X^TX is non-invertible. However, when we add the term lambda\*L, then X^TX+lambda\*L becomes invertible.  
 
 ### Regularized logistic regression  
-
-
+We can regularize logistic regression in a similar way that we regularize linear regression.  
+![](/picture/the_third_week/regularization_logistic.png)  
 
 ***
 ## Reference  
