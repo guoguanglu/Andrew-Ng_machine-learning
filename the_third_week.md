@@ -56,6 +56,15 @@ The decision boundary doesn't need to be linear, and could be a function that de
 Logistic regression model  
 ------  
 ### Cost function  
+We cannot use the same cost function that we use for linear regression because the logistic function will cause the output to be wavy, causing many local optima. In other words, it will not be a convex function.  
+Instead, ourt cost function for logistic regression looks like:  
+![](/picture/the_third_week/logistic2.png)  
+When y=1, we get the following plot:  
+![](/picture/the_third_week/logistic3.png)  
+Similarly, when y = 0, we get the following plot:  
+![](/picture/the_third_week/logistic4.png)  
+For the above plots, we can find following formulations:  
+![](/picture/the_third_week/logistic5.png)  
 
 ### Simplified cost function and gradient descent  
 
