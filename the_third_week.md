@@ -48,7 +48,9 @@ The image shows us what the sigmoid function looks like:
 h_theta(x) will give us the **probability** that our output is 1.  
 
 ### Decision boundary  
-
+The **decision boundary** is the line that separates the area where y=0 and where y=1(for two classification). It is created by our hypothesis function.  
+For example, g(z)>=0.5,y=1, then, z>0. For the z = 0 is the decision boundary.  
+The decision boundary doesn't need to be linear, and could be a function that describes a circle or any shape to fit ourt data.  
 
 ***  
 Logistic regression model  
