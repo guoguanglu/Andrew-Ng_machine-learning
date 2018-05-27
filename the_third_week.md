@@ -112,6 +112,18 @@ The following image shows how one could classify 3 classes:
 Solving the problem of overfitting  
 -----  
 ### The problem of overfitting  
+When we fit  training data, three conditions are shown as follows:  
+![](overfitting.png)  
+The first plot called underfitting or high bias is when the form ourt hypothesis function h maps poorly to the trend of the data.  
+The second plot called just right can fit the data very well, which can give us a good prediction.  
+The third plot called overfitting or high variance is caused by a hypothesis function that fits the available data but does not generalize well to predict new data.  
+There are two main options to address the issue of overfitting:  
+1. Reduce the number of features:  
+* Manually select which features to keep  
+* Use a model selection algorithm  
+2. Regularization  
+* Keep all the features, but reduce the magnitude of parameters theta_j.  
+* Regularization works well when we have a lot of slightly useful features.  
 
 ### Cost function  
 
