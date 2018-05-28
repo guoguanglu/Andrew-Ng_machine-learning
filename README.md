@@ -48,6 +48,17 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 		* Cost function  
 		* Regularized linear regression  
 		* Regularized logistic regression  
+* [The fourth week content](the_fourth_week.md)  
+	* Motivations  
+		* Non-linear hypotheses  
+		* Neurons and the brain  
+	* Neural networks  
+		* Model representation I  
+		* Model representation II  
+	* Applications  
+		* Examples and intuitions I  
+		* Examples and intuitions II  
+		* Multiclass classification  
 
 
 **********
