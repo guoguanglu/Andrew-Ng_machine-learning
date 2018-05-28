@@ -27,6 +27,7 @@ Neural Networks
 ![](/picture/the_fourth_week/neural_networks1.png)    
 
 ### Model representation II  
+![](/picture/the_fourth_week/neural_networks2.png)    
 
 ***  
 Applications  
