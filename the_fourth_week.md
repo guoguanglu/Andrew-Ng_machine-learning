@@ -49,4 +49,8 @@ Applications
 ***
 Reference  
 ----  
+https://www.coursera.org/learn/machine-learning/lecture/db3jS/model-representation  
+
+---------------------------------------------------------
+[Andrew-Ng-coursera]:https://www.coursera.org/learn/machine-learning/lecture/db3jS/model-representation "Andrew Ng coursera"
 
