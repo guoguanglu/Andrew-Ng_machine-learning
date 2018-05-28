@@ -38,10 +38,11 @@ Neural neetworks can be used to simulate logical gates. The following is an exam
 Where g(z) is the following:  
 ![](/picture/the_fourth_week/neural_networks4.png)  
 ### Examples and intuitions II  
-
-### Multiclass classification  
 There we have the XNOR operator using a hidden layer with two nodes! The following summarizes the above algorithm:  
 ![](/picture/the_fourth_week/neural_networks5.png)  
+### Multiclass classification  
+To classify data into multiple classes, we let our hypothesis function return a vector of values. Say we wanted to classify our data into one of four categories. We will use the following example to see how this classification is done. This algorithm takes as input an image and classifies it accordingly:  
+![](/picture/the_fourth_week/neural_networks6.png)  
 
 ***
 Reference  
