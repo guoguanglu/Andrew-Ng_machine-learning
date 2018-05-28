@@ -24,6 +24,7 @@ This is my note on Andrew-Ng's machining learning about the fourth week contents
 Neural Networks  
 -----  
 ### Model representation I  
+![](/picture/the_fourth_week/neural_networks1.png)    
 
 ### Model representation II  
 
