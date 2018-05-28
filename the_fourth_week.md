@@ -33,7 +33,10 @@ Neural Networks
 Applications  
 ------  
 ### Examples and intuitions I  
-
+Neural neetworks can be used to simulate logical gates. The following is an example of the logical operator 'OR', meaning either x_1 is true or x_2 is true, or both:  
+![](/picture/the_fourth_week/neural_networks3.png)  
+Where g(z) is the following:  
+![](/picture/the_fourth_week/neural_networks4.png)  
 ### Examples and intuitions II  
 
 ### Multiclass classification  
