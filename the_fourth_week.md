@@ -10,10 +10,7 @@ This is my note on Andrew-Ng's machining learning about the fourth week contents
 *** 
 [**BACK README**](README.md)  
 
-## Content
-* [Motivations](#motivations)  
-	* Non-linear hypotheses  
-	* Neurons and the brain  
+## Content  
 * [Neural Networks](#neural-networks)
 	* Model representation I  
 	* Model representation II  
@@ -23,13 +20,6 @@ This is my note on Andrew-Ng's machining learning about the fourth week contents
 	* Multiclass classification  
 * [Reference](#reference)
 	
-***  
-Motivations  
-------  
-### Non-linear hypotheses  
-
-### Neurons and the brain  
-
 ***  
 Neural Networks  
 -----  
