@@ -40,6 +40,8 @@ Where g(z) is the following:
 ### Examples and intuitions II  
 
 ### Multiclass classification  
+There we have the XNOR operator using a hidden layer with two nodes! The following summarizes the above algorithm:  
+![](/picture/the_fourth_week/neural_networks5.png)  
 
 ***
 Reference  
