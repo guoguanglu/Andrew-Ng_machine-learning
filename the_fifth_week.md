@@ -20,7 +20,7 @@ This is my note on Andrew-Ng's machining learning about the fifth week contents.
 	* Gradient checking    
   * Random initialization  
   * Putting it together  
-* [Application of neural](#application-of-neural)  
+* [Application of neural networks](#application-of-neural-networks)  
   * Autonomous driving    
 * [Reference](#reference)  
 
@@ -45,7 +45,7 @@ Backpropagation in practice
 ### Putting it together  
 
 ***  
-Application of neural  
+Application of neural networks    
 -----  
 ### Autonomous driving  
 
