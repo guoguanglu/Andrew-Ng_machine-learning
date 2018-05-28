@@ -56,6 +56,19 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 		* Examples and intuitions I  
 		* Examples and intuitions II  
 		* Multiclass classification  
+* [The fifth week content](the_fifth_week.md)  
+	* Cost function and backpropagation  
+		* Cost function  
+		* Backpropagation algorithm  
+		* Backpropagation intuition  
+	* Backpropagation in practice  
+		* Implementation note: unrolling parameters  
+		* Gradient checking  
+		* Random initialization  
+		* Putting it together  
+	* Application of neural networks  
+		* Autonomous driving  
+		
 
 
 **********
