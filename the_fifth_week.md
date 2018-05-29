@@ -68,9 +68,16 @@ The g-prime derivative terms can also be written out as :
 ![](/picture/the_fifth_week/backpropagation4.png)  
 
 The capital-delta matrix D is used as an "accumulator" to add up our values as we go along and eventually compute our partial derivative. Thus we get d(J(theta))/d(theta_ij^(l)) = D_ij^(l)  
-
-
 ### Backpropagation intuition  
+Recall that the cost function for a neural network is:  
+![](/picture/the_fifth_week/backpropagation5.png)  
+If we consider simple non-multiclass classification(k=1) and disregard regularization, the cost is computed with:  
+![](/picture/the_fifth_week/backpropagation6.png)  
+Intuitively, delta_j^(l) is the "error" for a_j^(l)(nuit j in layer l). More formally, the delta values are actually the derivative of the cost function:  
+![](/picture/the_fifth_week/backpropagation7.png)  
+Recall that our derivative is the slope of a line tangent to the cost function, so the steeper the slope the more incorrect we are. Let us consider the following neural network below and see how we could calculate some delta_j^(l):  
+![](/picture/the_fifth_week/backpropagation8.png)  
+In the image above, to calculate delta_2^(2), we multiply the weights theta_12^(2) and theta_22(2) by their respective delta values found to the right of each edge. So we get delt_2^(2) = theta_12^(2)\*delta_1^(3) + theta_22(2)\*delta_2^(3). To calculate every single possible theta_j^(l), we could start from the right of our diagram. We can think of our edges as our theta_ij. Going from right to left, to calculate the value of theta_j^(l), you can just take the over all sum of each weight times the delta it is coming from. Hence, another example would be delta_2^(3) = theta_12^(3)\*delta_1^(4).  
 
 ***  
 Backpropagation in practice  
