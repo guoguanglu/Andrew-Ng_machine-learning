@@ -45,6 +45,30 @@ Note:
 * the i in the triple sum does not refer to training example i.  
 
 ### Backpropagation algorithm  
+"Backpropagation" is neural-network terminology for minimizing our cost function, just like what we were doing with gradient descent in logistic and linear regression. Our goal is to compute:  
+`min_theta J(theta)`  
+That is, we want to minimize our cost function J using an optimal set of parameters in theta. In this section we'll look at the equations we use to compute the partial derivative of J(theta).  
+To do so, we use the following algorithm:  
+![](/picture/the_fifth_week/backpropagation1.png)  
+**Back propagation algorithm**  
+Given training set {(x^(1),y^(1)),...,(x^(m),y^(m))}  
+* Set delta_i,j^(l):=0 for all(l,i,j)(hence you end up having a matrix full of zeros)  
+
+For training example t=1 to m:  
+1. Set a^(1): = x^(t)  
+2. Pefrom forward propagation to compute a^(l) for l = 2,3,...,L  
+
+![](/picture/the_fifth_week/backpropagation2.png)  
+3. Using y^(t), compute delta^(L) = a^(L) - y^(t)  
+Where L is our total number of layers and a^(L) is the vector of outputs of the activation units for the last layer. So our "error values" for the last layer are simply the differences of our actual results in the last layer and the correct outputs in y. To get the delta values of the layers before the last layer, we can use an equation that steps us back from right to left:  
+4. Compute delta^(L-1), delta^(L-2),...,delta^(2)  
+![](/picture/the_fifth_week/backpropagation3.png)  
+The delta values of layer l are calculated by multiplying the delta values in the next layer with the theta matrix of layer l. We then element-wise multiply that with a function called g', or g-prime, which is the derivative of the activation function g evaluated with the input values given by z^(l).  
+The g-prime derivative terms can also be written out as :
+![](/picture/the_fifth_week/backpropagation4.png)  
+
+The capital-delta matrix D is used as an "accumulator" to add up our values as we go along and eventually compute our partial derivative. Thus we get d(J(theta))/d(theta_ij^(l)) = D_ij^(l)  
+
 
 ### Backpropagation intuition  
 
