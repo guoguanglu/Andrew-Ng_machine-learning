@@ -83,6 +83,8 @@ In the image above, to calculate delta_2^(2), we multiply the weights theta_12^(
 Backpropagation in practice  
 ----  
 ### Implementation note: unrolling parameters  
+In order to use optimizing functions such as "fminunc()", we will want to "unroll" all the elements and put them into one long vector.   
+![](/picture/the_fifth_week/backpropagation9.png)  
 
 ### Gradient checking  
 
