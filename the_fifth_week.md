@@ -96,7 +96,11 @@ Hence, we are only adding or subtracting epsilon to the theta_j matrix. In octav
 We previously saw how to calculate the deltaVector. So once we compute our gradApprox vector, we can check that gradApprox is similar to deltaVector.  
 Once you have verified **once** that your backpropagation algorithm is correct, you don't need to compute gradApprox again. **The code to compute gradApprox can be very slow.**  
 ### Random initialization  
-
+Initializing all theta weights to zero does not work with neural networks. When we backpropagate, all nodes will update to the same value repeatedly. Instead we can randomly initialize our weights for our theta matrices using the following method:  
+![](/picture/the_fifth_week/backpropagation13.png)  
+Hence, we initialize each theta_ij^(l) to a random value between [-epsilon,epsilon]. Using the above formula guarantees that we get the desired bound. The same procedure applies to all the theta's. Below is some working code you could use to experiment.  
+![](/picture/the_fifth_week/backpropagation14.png)  
+Where rand(x,y) is just a function in octave that will initialize a matrix of random real numbers between 0 and 1.  
 ### Putting it together  
 
 ***  
