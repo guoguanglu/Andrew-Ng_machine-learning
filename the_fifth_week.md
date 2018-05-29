@@ -85,9 +85,16 @@ Backpropagation in practice
 ### Implementation note: unrolling parameters  
 In order to use optimizing functions such as "fminunc()", we will want to "unroll" all the elements and put them into one long vector.   
 ![](/picture/the_fifth_week/backpropagation9.png)  
-
 ### Gradient checking  
-
+Gradient checking will assure that our backpropagation works as intended. We can approximate the derivative of our cost function with:  
+![](/picture/the_fifth_week/backpropagation10.png)  
+With multiple theta matrices, we can approximate the derivative with respect to theta_j as follows:  
+![](/picture/the_fifth_week/backpropagation11.png)  
+A small value for epsilon such as epsilon = 10^-4, guarantees that the math works out properly. If the value for epsilon is too small, we can end up with numerical problems.  
+Hence, we are only adding or subtracting epsilon to the theta_j matrix. In octave we can do it as follows:  
+![](/picture/the_fifth_week/backpropagation12.png)  
+We previously saw how to calculate the deltaVector. So once we compute our gradApprox vector, we can check that gradApprox is similar to deltaVector.  
+Once you have verified **once** that your backpropagation algorithm is correct, you don't need to compute gradApprox again. **The code to compute gradApprox can be very slow.**  
 ### Random initialization  
 
 ### Putting it together  
