@@ -102,11 +102,6 @@ Hence, we initialize each theta_ij^(l) to a random value between [-epsilon,epsil
 ![](/picture/the_fifth_week/backpropagation14.png)  
 Where rand(x,y) is just a function in octave that will initialize a matrix of random real numbers between 0 and 1.  
 ### Putting it together  
-
-***  
-Application of neural networks    
------  
-### Autonomous driving  
 First, pick a network architecture; choose the layout of your neural nnetwor, including how many hidden units in each layer and how many layers in total you want to have.  
 * Number of input units = dimension of features x^(i)  
 * Number of output units = number of classes  
@@ -126,6 +121,12 @@ When we perform forward and back propagation, we loop on every training example:
 The following image gives us an intuition of what is happening as we are implementingg our neural network:  
 ![](/picture/the_fifth_week/backpropagation16.png)  
 Ideally, you want h_theta(x^(i)) is similar to y^(i). This will minimize our cost function. However, keep in mind that J(theta) is not convex and thus we can end up in a local minimum instead.  
+
+***  
+Application of neural networks    
+-----  
+### Autonomous driving  
+
 
 ***  
 Reference  
