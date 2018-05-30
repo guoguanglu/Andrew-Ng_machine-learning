@@ -29,7 +29,7 @@ Cost function and backpropagation
 -----  
 ### Cost function  
 Let's first define a few variables that we will need to use :  
-* L = toal number of layers in the network  
+* L = total number of layers in the network  
 * s_l = number of units (not counting bias unit) in layer l  
 * K = number of output units/classes  
 
