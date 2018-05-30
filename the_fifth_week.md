@@ -73,7 +73,7 @@ Recall that the cost function for a neural network is:
 ![](/picture/the_fifth_week/backpropagation5.png)  
 If we consider simple non-multiclass classification(k=1) and disregard regularization, the cost is computed with:  
 ![](/picture/the_fifth_week/backpropagation6.png)  
-Intuitively, delta_j^(l) is the "error" for a_j^(l)(nuit j in layer l). More formally, the delta values are actually the derivative of the cost function:  
+Intuitively, delta_j^(l) is the "error" for a_j^(l)(unit j in layer l). More formally, the delta values are actually the derivative of the cost function:  
 ![](/picture/the_fifth_week/backpropagation7.png)  
 Recall that our derivative is the slope of a line tangent to the cost function, so the steeper the slope the more incorrect we are. Let us consider the following neural network below and see how we could calculate some delta_j^(l):  
 ![](/picture/the_fifth_week/backpropagation8.png)  
