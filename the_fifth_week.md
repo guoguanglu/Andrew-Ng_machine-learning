@@ -102,7 +102,7 @@ Hence, we initialize each theta_ij^(l) to a random value between [-epsilon,epsil
 ![](/picture/the_fifth_week/backpropagation14.png)  
 Where rand(x,y) is just a function in octave that will initialize a matrix of random real numbers between 0 and 1.  
 ### Putting it together  
-First, pick a network architecture; choose the layout of your neural nnetwor, including how many hidden units in each layer and how many layers in total you want to have.  
+First, pick a network architecture; choose the layout of your neural network, including how many hidden units in each layer and how many layers in total you want to have.  
 * Number of input units = dimension of features x^(i)  
 * Number of output units = number of classes  
 * Number of hidden units per layer = usually more the better(must balance with cost of computation as it increases with more hidden units.)  
