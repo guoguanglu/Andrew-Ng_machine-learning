@@ -66,8 +66,6 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 		* Gradient checking  
 		* Random initialization  
 		* Putting it together  
-	* Application of neural networks  
-		* Autonomous driving  
 		
 
 
