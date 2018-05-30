@@ -114,7 +114,7 @@ First, pick a network architecture; choose the layout of your neural network, in
 3. Implement the cost function  
 4. Implement backpropagation to compute parital derivatives  
 5. Use gradient checking to confirm that your backpropagation works. Then disable gradient checking.  
-6. Use gradient decent or a built-in optimization function to minimize the cost function with the weights in theta.  
+6. Use gradient descent or a built-in optimization function to minimize the cost function with the weights in theta.  
 
 When we perform forward and back propagation, we loop on every training example:  
 ![](/picture/the_fifth_week/backpropagation15.png)  
