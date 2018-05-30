@@ -20,8 +20,6 @@ This is my note on Andrew-Ng's machining learning about the fifth week contents.
 	* Gradient checking    
   * Random initialization  
   * Putting it together  
-* [Application of neural networks](#application-of-neural-networks)  
-  * Autonomous driving    
 * [Reference](#reference)  
 
 ***  
@@ -121,12 +119,7 @@ When we perform forward and back propagation, we loop on every training example:
 The following image gives us an intuition of what is happening as we are implementingg our neural network:  
 ![](/picture/the_fifth_week/backpropagation16.png)  
 Ideally, you want h_theta(x^(i)) is similar to y^(i). This will minimize our cost function. However, keep in mind that J(theta) is not convex and thus we can end up in a local minimum instead.  
-
-***  
-Application of neural networks    
------  
-### Autonomous driving  
-
+By the way, neural network can be applied to automatic driving.  
 
 ***  
 Reference  
