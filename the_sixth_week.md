@@ -22,4 +22,11 @@ This is my note on Andrew-Ng's machining learning about the sixth week contents.
   * Putting it together  
 * [Reference](#reference)  
 
+
 ***  
+Reference  
+----  
+https://www.coursera.org/learn/machine-learning/lecture/db3jS/model-representation  
+
+---------------------------------------------------------
+[Andrew-Ng-coursera]:https://www.coursera.org/learn/machine-learning/lecture/db3jS/model-representation "Andrew Ng coursera"
