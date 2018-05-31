@@ -11,16 +11,45 @@ This is my note on Andrew-Ng's machining learning about the sixth week contents.
 [**BACK README**](README.md)  
 
 ## Content  
-* [Cost function and backpropagation](#cost-function-and-backpropagation)  
-	* Cost function    
-	* Backpropagation algorithm    
-	* Backpropagation intuition      
-* [Backpropagation in practice](#backpropagation-in-practice)  
-	* Implementation note: unrolling parameters      
-	* Gradient checking    
-  * Random initialization  
-  * Putting it together  
+* [Evaluating a learning algorithm](#evaluating-a-learning-algorithm)  
+	* Evaluating a hypothesis    
+	* Model selection and train/validation/test sets      
+* [Bias vs variance](#bias-vs-variance)  
+	* Diagnosing bias vs variance        
+	* Regularization and bias/variance     
+	* Learning curves
+	* Deciding what to do next revisited  
+* [Building a spam classifier](#building-a-spam-classifier)  
+	* Prioritizing what to work on  
+	* Error analysis  
 * [Reference](#reference)  
+
+***  
+Evaluating a learning algorithm  
+-----  
+### Evaluating a hypothesis  
+
+### Model selection and train/validation/test sets  
+
+***  
+Bias vs variance  
+-----  
+### Diagnosing bias vs variance  
+
+### Regularization and bias/variance  
+
+### Learning curves  
+
+### Deciding what to do next revisited  
+
+***  
+Building a spam classifier  
+----  
+### Prioritizing what to work on  
+
+### Error analysis  
+
+
 
 
 ***  
