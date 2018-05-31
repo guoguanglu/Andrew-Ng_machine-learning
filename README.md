@@ -66,6 +66,21 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 		* Gradient checking  
 		* Random initialization  
 		* Putting it together  
+* [The sixth week content](the_sixth_week.md)  
+	* Evaluating a learning algorithm  
+		* Evaluatinng a hypothesis  
+		* Model selection and Train/Validation/Test Sets  
+	* Bias vs. variance  
+		* Diagnosing Bias vs. variance  
+		* Regularization and bias/variance  
+		* Learning curves  
+		* Deciding what to do next revisited  
+	* Building a spam classifier  
+		* prioritizing what to work on  
+		* Error analysis  
+		
+		
+		
 		
 
 
