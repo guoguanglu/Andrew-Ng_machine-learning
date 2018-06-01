@@ -79,6 +79,14 @@ The training error will tend to decrease as we increase the degree d of the poly
 At the same time, the cross validation error will tend to decrease as we increase d up to a point, and then it will increase as d is increased, forming a convex curve.  
 ![](/picture/the_sixth_week/bias_variance2.png)  
 ### Regularization and bias/variance  
+![](/picture/the_sixth_week/reg_bias_variance.png)  
+In the figure above, we see that as lambda increases, ourt fit becomes more rigid. On the other hand, as lambda approaches 0, we tend to over overfit the data. So how do we choose our parameter lambda to get it "just right"? In order to choose the model and the regularization term lambda, we need to :  
+1. Create a list of lambdas {i.e. lambda in {0,0.01,0.02,0.04,0.08,0.16,0.32,0.64,1.28,2.56,5.12,10.24}};  
+2. Create a set of models with different degrees or any other variants.  
+3. Iterate through the lambdas and for each lambda go through all the models to learn some theta.  
+4. Compute the cross validation error using the learned theta(computed with lambda) on the J_cv(theta) without regularization or lambda=0  
+5. Select the best combo that produces the lowest error on the cross validation set.  
+6. Using the best combo theta and lambda, apply it on J_test(theta) to see if it has a good generalization of the probelm.  
 
 ### Learning curves  
 
