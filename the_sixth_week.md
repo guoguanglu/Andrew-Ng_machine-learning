@@ -71,7 +71,13 @@ This way, the degree of the polynomial d has not been trained using the test set
 Bias vs variance  
 -----  
 ### Diagnosing bias vs variance  
+* We need to distinguish whether **bias** or **variance** is the problem contributing to bad predictions.  
+* High bias is underfitting and high variance is overfitting. Ideally, we need to find a golden mean between these two.  
 
+![](/picture/the_sixth_week/bias_variance1.png)  
+The training error will tend to decrease as we increase the degree d of the polynomial.  
+At the same time, the cross validation error will tend to decrease as we increase d up to a point, and then it will increase as d is increased, forming a convex curve.  
+![](/picture/the_sixth_week/bias_variance2.png)  
 ### Regularization and bias/variance  
 
 ### Learning curves  
