@@ -89,7 +89,20 @@ In the figure above, we see that as lambda increases, ourt fit becomes more rigi
 6. Using the best combo theta and lambda, apply it on J_test(theta) to see if it has a good generalization of the probelm.  
 
 ### Learning curves  
+Training an algorithm on a very few number of data points(such as 1, 2 or 3) will easily have 0 errors because we can  always find a quadratic curve that touches exactly those number of points. Hence:  
+* As the training set gets larger, the error for a quadratic function increases.  
+* The error value will plateau out after a certain m, or training set size.  
 
+**Experiencing high bias:**  
+**Low training set size**: causes J_train(theta) to be low and J_CV(theta) to be high.  
+**Large training set size**: causes both J_train(theta) and J_CV(theta) to be high with J_train(theta) is similar to J_CV(theta).  
+If a learning algorithm is suffering from **high bias**, getting more training data will not(by itself) help much.  
+![](/picture/the_sixth_week/learning_curves.png)  
+**Experiencing high variance**: 
+ **Low training set size**: J_train(theta) will be low and J_CV(theta) will be high.  
+ **Large training set size**: J_train(theta) increases with training set size and J_CV(theta) continues to decrease without leveling off. Also, J_train(theta) < J_CV(theta) but the difference between them remains significant.  
+ If a learning algorithm is suffering from **high variance**, getting more training data is likely to help.  
+ ![](/picture/the_sixth_week/learning_curves.png)  
 ### Deciding what to do next revisited  
 
 ***  
