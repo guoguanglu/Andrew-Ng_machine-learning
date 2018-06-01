@@ -102,7 +102,7 @@ If a learning algorithm is suffering from **high bias**, getting more training d
  **Low training set size**: J_train(theta) will be low and J_CV(theta) will be high.  
  **Large training set size**: J_train(theta) increases with training set size and J_CV(theta) continues to decrease without leveling off. Also, J_train(theta) < J_CV(theta) but the difference between them remains significant.  
  If a learning algorithm is suffering from **high variance**, getting more training data is likely to help.  
- ![](/picture/the_sixth_week/learning_curves.png)  
+ ![](/picture/the_sixth_week/learning_curves2.png)  
 ### Deciding what to do next revisited  
 
 ***  
