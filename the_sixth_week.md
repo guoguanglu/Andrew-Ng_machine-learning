@@ -28,6 +28,29 @@ This is my note on Andrew-Ng's machining learning about the sixth week contents.
 Evaluating a learning algorithm  
 -----  
 ### Evaluating a hypothesis  
+Once we have done some trouble shooting for errors in our predictions by:  
+* Getting more training examples  
+* Trying smaller sets of features  
+* Trying additional features  
+* Trying polynomial features  
+* Increasing or decreasing lambda  
+
+We can move on to evaluate our new hypothesis.  
+We can split up the data int two sets: **training set** and **test set**. Typically, the proportion of the training set and test set is 
+**7:3**.  
+The new procedure using these two sets is then:  
+1. Learning theta and minimize J_train(theta) using the training set  
+2. Compute the test set error J_test(theta)  
+
+**The test set error**:  
+1. For linear regression:  
+![](/picture/the_sixth_week/LR_test_error.png)  
+2. For classification: Misclassification error (aka 0/1 miscalssification error):  
+![](/picture/the_sixth_week/classification_test_error.png)  
+
+This gives us a binary 0 or 1 error result based on a misclassification. The average test error for the test set is:  
+![](/picture/the_sixth_week/classification_test_error2.png)  
+This gives us the proportion of the test data that was misclassified.  
 
 ### Model selection and train/validation/test sets  
 
