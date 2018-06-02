@@ -51,7 +51,7 @@ We can get:
 When x is close to l^(1), then new feature f1 is similar to one.  
 When x is far away from l^(1), then new featuref1 is similar to zero.
 ![](/picture/the_seventh_week/kernel1.png)  
-The larger sigma is , the fatter the plot is. However the new feature max is  one.  
+The larger sigma is , the fatter the plot is. However the new feature maximum is one.  
 ![](/picture/the_seventh_week/kernel2.png)  
 When introducing three landmarks l(1),l(2),l(3), we can get intuitively red decision boundary.  
 ![](/picture/the_seventh_week/kernel3.png)  
