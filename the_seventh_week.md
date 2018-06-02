@@ -57,6 +57,18 @@ When introducing three landmarks l(1),l(2),l(3), we can get intuitively red deci
 ![](/picture/the_seventh_week/kernel3.png)  
 
 ### Kernels II  
+**SVM with kernels**:  
+1. Given training data set (x^(1), y^(1)), (x^(2), y^(2)),...,(x^(m), y^(m))  
+2. Choose l^(1) = x^(1), l^(2) = x^(2),..., l^(m) = x^(m)  
+3. By similarity function, we can get the new features:  
+```
+f_1 = similarity(x, l^(1))  
+f_2 = similarity(x, l^(2))  
+f_m = similarity(x, l^(m))  
+f = [f_0, f_1, f_2,..., f_m],  where f_0 = 1  
+```  
+the number of feature f is m+1. We can get the cost function of SVM with kernel as follows:  
+![](/picture/the_seventh_week/kernel4.png)  
 
 ***  
 SVMs in practice  
