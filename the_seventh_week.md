@@ -74,6 +74,33 @@ the number of feature f is m+1. We can get the cost function of SVM with kernel 
 SVMs in practice  
 -----  
 ### Using an SVM  
+try to use SVM software package(e.g. liblinear, libsvm) , don't write svm by yourself  
+Need to specify:  
+1. Choice of parameter C.  
+2. Choice of kernel ( no-kernel called linear kernel)  
+
+For Gaussian kernel:  
+Need to choose sigma: 
+* Higher variance, larger sigma  
+* Higher bias, lower sigma  
+
+**when do we choose Gaaussian kernel?**  
+when the number of features n is small, and the size of training dataset is large.  
+Note:  
+* Do perform feature scaling before using the Gaussian kernel.  
+* Not all similarity functions make valid kernels, which needs to satify technical condition called "mercer's Theroem" to make sure SVM packages's optimization run correctly, don't diverge.  
+
+Some kernel can be used:  
+1) Polynomial kernel  
+2) More esoteric: string kernel, chi-square kernel, histogram inersection kernel  
+
+**Use logistic or SVM 
+1) n >> m(n=10000,m=1-1000) use logistic regression or SVM without kernel  
+2) n is small, m is intermediate(n=1-1000,m=10-10000) use SVM with Gaussian kernel  
+3) n is small, m is large(n=1-1000, m=50000+) create/add more features, then use logistic regression or SVM without kernel  
+
+Note:  
+Neural network likely to work well for most of these settings, but may be slower to train.  
 
 ***  
 Reference  
