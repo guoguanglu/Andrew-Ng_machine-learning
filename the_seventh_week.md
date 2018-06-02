@@ -30,7 +30,11 @@ Large margin classification
 ![](/picture/the_seventh_week/svm1.png)  
 
 ### Large margin intuition  
-
+![](/picture/the_seventh_week/svm2.png)  
+![](/picture/the_seventh_week/svm3.png)  
+From the above picture, the back line is SVM decision boundary (intuition). Large margin classifier is the distance between the black line and blue line.  
+![](/picture/the_seventh_week/svm4.png)  
+When the C is very large, the clasifier will make training dataset correct, the decision boundary will be pink line. When C is small, the decision boundary will be black line.   
 ### Mathematics behind large margin classification  
 
 ***  
