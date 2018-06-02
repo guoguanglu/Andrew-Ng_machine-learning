@@ -23,3 +23,27 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 ***
 Large margin classification  
 -----
+### Optimization objective  
+![](/picture/the_seventh_week/svm1.png)  
+
+### Large margin intuition  
+
+### Mathematics behind large margin classification  
+
+***  
+Kernels  
+----  
+### Kernels I  
+
+### Kernels II  
+
+***  
+SVMs in practice  
+-----  
+### Using an SVM  
+
+***  
+Reference  
+----  
+
+
