@@ -25,6 +25,8 @@ This is my note on Andrew-Ng's machining learning about the sixth week contents.
 * [Handling skewed data](#handling-skewed-data)  
 	* Error metrics for skewed classes  
 	* Trading off precision and recall  
+* [Using large data sets](#using-large-data-sets)  
+	* Data for machine learning  
 * [Reference](#reference)  
 
 ***  
@@ -153,7 +155,11 @@ Handling skewed data
 When the dataset is strongly unbalanced such as 0.5% of patients, the accuarcy is not a good error metric. Because let classifier y equals to zeros, we can get 0.5% rate of error, but that is not a good classifier. So we need other error metrics: **precision** and **recall**.  
 ![](/picture/the_sixth_week/skewed_data.png)  
 
-
+***  
+Using large data sets  
+----  
+### Data for machine learning  
+![](/picture/the_sixth_week/large_data.png)  
 
 ***  
 Reference  
