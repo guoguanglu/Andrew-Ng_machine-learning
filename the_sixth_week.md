@@ -22,6 +22,9 @@ This is my note on Andrew-Ng's machining learning about the sixth week contents.
 * [Building a spam classifier](#building-a-spam-classifier)  
 	* Prioritizing what to work on  
 	* Error analysis  
+* [Handling skewed data](#handling-skewed-data)  
+	* Error metrics for skewed classes  
+	* Trading off precision and recall  
 * [Reference](#reference)  
 
 ***  
@@ -142,6 +145,13 @@ For example, assume that we have 500 emails and our algorithm misclassifies a 10
 ![](/picture/the_sixth_week/spam_classification2.png)  
 It is very important to get error results as a single, numerical value. Otherwise it is difficult to assess your algorithms's performance. For example if we use stemming, which is the process of treating the same word with different forms(fail/failing/failed)as one word(fail)
 , and get a 3% error rate instead of 5%, then we should definitely add it to our model. However, if we try to distinguish between upper case and lower case letters and end up gettingg a 3.2% error rate instead of 3%, then we should avoid using this new feature. Hence, we should try new things, get a numerical value for our error rate, and based on our result decide whether we want to keep the new feature or not.  
+
+***  
+Handling skewed data  
+-----  
+### Error metrics for skewed classes  
+When the dataset is strongly unbalanced such as 0.5% of patients, the accuarcy is not a good error metric. Because let classifier y equals to zeros, we can get 0.5% rate of error, but that is not a good classifier. So we need other error metrics: **precision** and **recall**.  
+![](/picture/the_sixth_week/skewed_data.png)  
 
 
 
