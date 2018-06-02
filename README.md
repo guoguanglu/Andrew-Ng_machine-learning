@@ -78,7 +78,19 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 	* Building a spam classifier  
 		* prioritizing what to work on  
 		* Error analysis  
-		
+	* Using large data sets  
+		* Data for machine learning  
+* [The seventh week content](the_seventh_week.md)  
+	* Large margin classification  
+		* Optimization objective  
+		* Large margin intuition  
+		* Mathematics behind large margin classification  
+	* Kernels  
+		* Kernels I  
+		* Kernels II  
+	* SVM in practice  
+		* Using an SVM  
+
 		
 		
 		
