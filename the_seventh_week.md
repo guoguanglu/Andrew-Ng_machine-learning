@@ -36,6 +36,12 @@ From the above picture, the back line is SVM decision boundary (intuition). Larg
 ![](/picture/the_seventh_week/svm4.png)  
 When the C is very large, the clasifier will make training dataset correct, the decision boundary will be pink line. When C is small, the decision boundary will be black line.   
 ### Mathematics behind large margin classification  
+**Vector inner product**:  
+`u^T\*v = p * ||u||`  
+The geometric meaning of Vector u and v inner product is that length of projection of v onto u products norm of u. It is shown as follows:  
+![](/picture/the_seventh_week/svm5.png)  
+![](/picture/the_seventh_week/svm6.png)  
+![](/picture/the_seventh_week/svm7.png)  
 
 ***  
 Kernels  
