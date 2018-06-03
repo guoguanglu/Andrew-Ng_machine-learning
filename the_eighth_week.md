@@ -58,8 +58,23 @@ c^(i) := min_k||x^(i) - mu_k||^2
 We can find the distance is just that the distance between examples and cluster centroids of cluster to which examples has been assigned.  
 ![](/picture/the_eighth_week/k_mean2.png)  
 ### Random initialization  
+K-means random initializationn  
+1. Should have k<m  
+2. Randomly pick k training examples  
+3. Set mu_1, mu_2,...mu_k equal to these k examples.  
 
+To avoid stucking in a local minimize, we can randomly initialize and run many times(50-1000times)  
+```
+For i=1 to 100{
+	Randomly initialize k-means  
+	Run k-means. Get c^(1), c^(2),..., c^(m), mu_1,...,mu_k  
+	compute the cost function (distortion)  J(c^(1),...,c^(m),mu_1,...,mu_k)  
+Pick clustering that give lowest cost J
+```
+Note : when k = 2-10, The method of  runnning many times can make a huge difference.   
 ### Choosing the number of clusters  
+![](/picture/the_eighth_week/k_mean2.png)  
+Sometimes, you're running K-means to get clusters to use for some later/downstream purpose.  
 
 ***  
 Motivation  
