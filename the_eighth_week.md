@@ -94,7 +94,7 @@ PCA is not linear regression. PCA computes the minimize projection error(that is
 ![](/picture/the_eighth_week/pca1.png)  
 
 ### principal component analysis algorithm  
-
+![](/picture/the_eighth_week/pca2.png)  
 ***  
 Applying PCA  
 ---  
