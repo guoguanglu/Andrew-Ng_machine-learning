@@ -105,8 +105,6 @@ Neural network likely to work well for most of these settings, but may be slower
 ***  
 Reference  
 ----  
-Reference  
------  
 https://www.coursera.org/learn/machine-learning/lecture/db3jS/model-representation  
 
 ---------------------------------------------------------
