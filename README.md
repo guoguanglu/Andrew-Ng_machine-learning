@@ -90,6 +90,24 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 		* Kernels II  
 	* SVM in practice  
 		* Using an SVM  
+* [The eighth week content](the_eighth_week.md)  
+	* Clustring  
+		* K-means algorithm  
+		* Optimization objective  
+		* Random initialization  
+		* Choosing the number of clusters  
+	* Motivation  
+		* Motivation I: data compression  
+		* Motivation II: visualization  
+	* Principal component analysis  
+		* Principal component analysis problem formulation  
+		* Principal component analysis algorithm  
+	* Applying PCA  
+		* Reconstruction from compressed representation  
+		* Choosing the number of principal components  
+		* Advice for applying PCA  
+		
+		
 
 		
 		
