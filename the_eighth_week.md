@@ -82,11 +82,16 @@ Motivation
 ![](/picture/the_eighth_week/data_compression.png)  
 
 ### Motivation II: visualization  
+We need to visulaize our dataset. However there are many features, then we can choose two or three main feature to visualize them.  
 
 ***  
 Principal component analysis  
 ---  
 ### principal component analysis problem formulation  
+PCA problem formulation  
+Reduce from n-dimension to k-dimension: Find k vectors u^(1), u^(2),...,u^(k) onto which to project the data, so as to **minimize the projection error**.  
+PCA is not linear regression. PCA computes the minimize projection error(that is distance between point to line). However linear regression computes the vertical distance between point and line. They are different.  
+![](/picture/the_eighth_week/pca1.png)  
 
 ### principal component analysis algorithm  
 
