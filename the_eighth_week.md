@@ -19,7 +19,6 @@ This is my note on Andrew-Ng's machining learning about the eighth week contents
 * [Motivation](#motivation)  
 	* Motivation I: data compression  
 	* Motivation II: visualization    
-	* Multiclass classification  
 * [Principal component analysis](#principal-component-analysis)  
 	* principal component analysis problem formulation  
 	* principal component analysis algorithm  
@@ -80,10 +79,9 @@ Sometimes, you're running K-means to get clusters to use for some later/downstre
 Motivation  
 ---  
 ### Motivation I: data compression  
+![](/picture/the_eighth_week/data_compression.png)  
 
 ### Motivation II: visualization  
-
-### Multiclass classification  
 
 ***  
 Principal component analysis  
