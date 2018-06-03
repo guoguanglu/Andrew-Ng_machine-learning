@@ -120,10 +120,23 @@ Typically, choose k to be smallest value so that
 Pick smallest value of k for which  
 ![](/picture/the_eighth_week/pca6.png)  
 
-
-
 ### Advice for applying PCA  
+Sometimes PCA can speed up a learning algorithm.  
+**supervised learning speedup**:  
+```
+train set : {(x^(1), y^(1)), ..., (x^(m), y^(m))}  
+extract input: x^(i) map to z^(i) by PCA  ,where x in 10000-dimension, z in 1000-dimension  
+we can get new train set : {(z^(1), y^(1)), ..., (z^(m), y^(m))}  
+```
+Note:  
+Running PCA only on the training set. Then the mapping can be applied as well to the cv set or test set.  
+**Application of PCA**:  
+1. Compression  
+	* Reduce memory/disk needed to store data  
+	* Speed up learning algorithm  
+2. Visulization  
 
+**Bad application of PCA**: To prevent overfitting problem. you can use regularization.
 
 ***  
 Reference  
