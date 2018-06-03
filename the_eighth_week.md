@@ -107,13 +107,13 @@ x_approx = U_reduce * Z
 ### Choosing the number of principal components  
 choosing k(called number of principal components)  
 **one method**:  
-Average squared projection error: 
+Average squared projection error:   
 ![](/picture/the_eighth_week/pca3.png)  
-Total variation in the data: 
-![](/picture/the_eighth_week/pca4.png)  
-Typically, choose k to be smallest value so that  
-![](/picture/the_eighth_week/pca5.png)  
-'99%' of variance is retained.  
+Total variation in the data:   
+![](/picture/the_eighth_week/pca4.png)   
+Typically, choose k to be smallest value so that   
+![](/picture/the_eighth_week/pca5.png)   
+'99%' of variance is retained.   
 '95%' and '99%' are  common range of values that people use.  
 **two method**:  
 [U, S, V] = svd(Sigma)  
