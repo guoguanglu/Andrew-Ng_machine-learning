@@ -99,7 +99,11 @@ PCA is not linear regression. PCA computes the minimize projection error(that is
 Applying PCA  
 ---  
 ### Reconstruction from compressed representation  
-
+We can map low-dimension  back to high-dimension.  
+```
+Z = U_reduce^T \* x  
+x_approx = U_reduce * Z
+```  
 ### Choosing the number of principal components  
 
 ### Advice for applying PCA  
