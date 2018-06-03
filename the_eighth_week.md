@@ -27,6 +27,70 @@ This is my note on Andrew-Ng's machining learning about the eighth week contents
 	* Reconstruction from compressed  
 	* Choosing the number of principal components  
 	* Advice for applying PCA  
-* [Reference](#reference)
-	
+* [Reference](#reference)  
+
 ***  
+Clustering  
+----  
+### K-means algorithm  
+**K-means algorithm**  
+Input:  
+* K(number of clusters)  
+* Training set {x^(1), x^(2),..., x^(m)}(unlabel dataset)  
+Note: x^(i) in R^(n)(drop x_0 = 1 convention)  
+
+Algorithm:
+```
+1. Randomly initialize K cluster centroids mu_1,mu_2,...,mu_K in R^(n)  
+2. Repeat{  
+(1)	for i =1 to m  
+		c^(i):= index(from 1 to K) of cluster centroid closest to x^(i)  
+(2)	for k =1 to K   
+		mu_k:= average(mean) of points assigned to cluster k  
+```  
+Note:  
+(1) The step is called cluster assignment step. The dataset is divided and assigned to corresponding cluster set.  
+c^(i) := min_k||x^(i) - mu_k||^2  
+(2) The step is called moving cluster step. According to the new cluster datasets, we can get new cluster centroids.  
+
+### Optimization objective  
+![](/picture/the_eighth_week/k_mean1.png)  
+We can find the distance is just that the distance between examples and cluster centroids of cluster to which examples has been assigned.  
+![](/picture/the_eighth_week/k_mean2.png)  
+### Random initialization  
+
+### Choosing the number of clusters  
+
+***  
+Motivation  
+---  
+### Motivation I: data compression  
+
+### Motivation II: visualization  
+
+### Multiclass classification  
+
+***  
+Principal component analysis  
+---  
+### principal component analysis problem formulation  
+
+### principal component analysis algorithm  
+
+***  
+Applying PCA  
+---  
+### Reconstruction from compressed representation  
+
+### Choosing the number of principal components  
+
+### Advice for applying PCA  
+
+
+***  
+Reference  
+----  
+https://www.coursera.org/learn/machine-learning/lecture/db3jS/model-representation  
+
+---------------------------------------------------------
+[Andrew-Ng-coursera]:https://www.coursera.org/learn/machine-learning/lecture/db3jS/model-representation "Andrew Ng coursera"
