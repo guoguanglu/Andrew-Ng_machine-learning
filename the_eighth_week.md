@@ -72,7 +72,7 @@ Pick clustering that give lowest cost J
 ```
 Note : when k = 2-10, The method of  runnning many times can make a huge difference.   
 ### Choosing the number of clusters  
-![](/picture/the_eighth_week/k_mean2.png)  
+![](/picture/the_eighth_week/k_mean3.png)  
 Sometimes, you're running K-means to get clusters to use for some later/downstream purpose.  
 
 ***  
