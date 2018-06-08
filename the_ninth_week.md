@@ -11,7 +11,7 @@ This is my note on Andrew-Ng's machining learning about the ninth week contents.
 [**BACK README**](README.md)  
 
 ## Content  
-* [Density estimation](#desity-estimation)
+* [Density estimation](#density-estimation)
 	* Problem motivation  
 	* Gaussian distribution  
   	* Algorithm   
@@ -19,7 +19,7 @@ This is my note on Andrew-Ng's machining learning about the ninth week contents.
 	* Developing and evaluating an anomaly detection system  
 	* Anomaly detection vs supervised learning  
 	* Choosing what features to use  
-* [Multivariate Gaussian distribution](#principal-component-analysis)  
+* [Multivariate Gaussian distribution](#multivairate-gaussian-distribution)  
 	* Multivariate Gaussian distribution  
 	* Anomaly detection using the multivariate Gaussian distribution  
 * [Predicting movie ratings](#predicting-movie-ratings)
