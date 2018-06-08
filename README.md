@@ -106,6 +106,28 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 		* Reconstruction from compressed representation  
 		* Choosing the number of principal components  
 		* Advice for applying PCA  
+* [The ninth week content](the_ninth_week.md)  
+	* Density estimation  
+		* Problem motivation  
+		* Gaussian distribution  
+		* Algorithm  
+	* Building an anomaly detection system  
+		* Developing and evaluating an anomaly detection system  
+		* Anomaly detection vs supervised learning  
+		* Choosing what features to use  
+	* Multivariate Gaussian distribution  
+		* Multivariate Gaussian distribution  
+		* Anomaly detection using the multivariate Gaussian distribution  
+	* Predicting movie ratings  
+		* Problem formulation  
+		* Content based recommendations  
+	* Collaborative filtering  
+		* Collaborative filtering  
+		* Collaborative filtering algorithm  
+	* Low rank matrix factroization  
+		* Vectrization: low rank matrix factroization  
+		* Implementational detiail: mean normalization  
+	
 		
 		
 
