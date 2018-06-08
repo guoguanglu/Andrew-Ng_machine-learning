@@ -37,16 +37,24 @@ This is my note on Andrew-Ng's machining learning about the ninth week contents.
 Density estimation  
 ----  
 ### Problem motivation  
+![](/picture/the_ninth_week/anomaly_detection1.png)  
+**Application**:  
+1. Fraud detection  
+2. Manufacturing  
+3. Monitoring computers in a data center  
 
+When your system has too many anomalous things, you should decrease the flag.  
 ### Gaussian distribution  
-
+![](/picture/the_ninth_week/anomaly_detection2.png)  
+![](/picture/the_ninth_week/anomaly_detection3.png)  
 ### Algorithm  
+![](/picture/the_ninth_week/anomaly_detection4.png)  
 
 ***  
 Building an anomaly detection system  
 ----  
 ### Developing and evaluating an anomaly detection system  
-
+  
 ### Anomaly detection vs supervised learning  
 
 ### Choosing what features to use  
