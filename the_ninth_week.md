@@ -102,6 +102,19 @@ Multivairate Gaussian distribution
 ### Anomaly detection using the multivariate Gaussian distribution  
 **Anomaly detection with the multivariate Gaussian**:  
 ![](/picture/the_ninth_week/anomaly_detection14.png)  
+**Advantages and disadvantages**:  
+```
+Original model:  
+1. Manually create features to capture anomalies where x1 x2 take unusal combinations of values.  
+2. Computationally cheaper(alternaitvely, scales better to large n)  
+3. OK even if m(training set size) is small  
+
+Multivariate Gaussian:  
+1. Automatically captures correlations between features  
+2. Computationally more expensive  
+3. Must have m > n(m >= 10n) or else sigma is non invertible.  
+Note: If sigma is singular, Two reasons: not satify m>n;  redundant features  
+```  
 
 ***  
 Predicting movie ratings  
