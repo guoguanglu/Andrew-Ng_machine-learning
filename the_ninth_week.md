@@ -54,10 +54,39 @@ When your system has too many anomalous things, you should decrease the flag.
 Building an anomaly detection system  
 ----  
 ### Developing and evaluating an anomaly detection system  
-  
+![](/picture/the_ninth_week/anomaly_detection5.png)  
+![](/picture/the_ninth_week/anomaly_detection6.png)   
+Note:Alternative is less good practice.  
+![](/picture/the_ninth_week/anomaly_detection7.png)   
+
 ### Anomaly detection vs supervised learning  
+**Difference**:
+```
+Anomaly detection:  
+1. very small number of positive examples and larege number of negative examples.  
+2. Many different 'types' of anomalies. And future anomalies may look nothing like examples that we have seen.  
+
+Supervised learning:  
+1. Large number of positive and negative examples.  
+2. Enough positive examples for algorithm to get a sense fo what positive examples are like. And the future positive examples are similar to ones in training set.  
+```  
+**Application**: 
+ ```
+ Anomaly detection:  
+ 1. Fraud detection  
+ 2. Manufacturing(e.g. aircraft engines)  
+ 3. Monitoring machines in a data center  
+ 
+ Supervised learning:  
+ 1. Email spam classification  
+ 2. Weather predcition(sunny/rainy/etc)  
+ 3. Cancer classification  
+ ```
 
 ### Choosing what features to use  
+![](/picture/the_ninth_week/anomaly_detection8.png)   
+You better make your data look like more Gaussian distribution. You can use log() or power() funciton to transform your data like Gaussian distribution.  
+Error analysis: Sometimes you need add new features to make mistake anomalous examples correct.  
 
 ***  
 Multivairate Gaussian distribution  
