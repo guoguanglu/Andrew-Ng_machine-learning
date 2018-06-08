@@ -8,6 +8,10 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 - QQ: 2360889142  
 
 ***
+[**Back to github.io**][]
+***
+
+***
 ## Content  
 * [The first week content](the_first_week.md)
 	* What is the machine learning
@@ -142,5 +146,5 @@ https://www.coursera.org/learn/machine-learning/lecture/db3jS/model-representati
 
 ---------------------------------------------------------
 [Andrew-Ng-coursera]:https://www.coursera.org/learn/machine-learning/lecture/db3jS/model-representation "Andrew Ng coursera"
-
+[github.io]:
 
