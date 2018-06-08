@@ -1,5 +1,5 @@
-# The eighth week——Andrew-Ng Machine Learning Notes  
-This is my note on Andrew-Ng's machining learning about the eighth week contents. Thank you for asking questions.
+# The ninth week——Andrew-Ng Machine Learning Notes  
+This is my note on Andrew-Ng's machining learning about the ninth week contents. Thank you for asking questions.
 
 ***
 [![](/picture/the_first_week/fig_ML.jpg)][Andrew-Ng-coursera]  
@@ -11,22 +11,75 @@ This is my note on Andrew-Ng's machining learning about the eighth week contents
 [**BACK README**](README.md)  
 
 ## Content  
-* [Clustering](#clustering)
-	* K-means algorithm  
-	* Optimization objective  
-  	* Random initialization  
-  	* Choosing the number of clusters  
-* [Motivation](#motivation)  
-	* Motivation I: data compression  
-	* Motivation II: visualization    
-* [Principal component analysis](#principal-component-analysis)  
-	* principal component analysis problem formulation  
-	* principal component analysis algorithm  
-* [Applying PCA](#applying-pca)
-	* Reconstruction from compressed  
-	* Choosing the number of principal components  
-	* Advice for applying PCA  
+* [Density estimation](#desity-estimation)
+	* Problem motivation  
+	* Gaussian distribution  
+  	* Algorithm   
+* [Building an anomaly detection system](#building-an-anomaly-detection-system)  
+	* Developing and evaluating an anomaly detection system  
+	* Anomaly detection vs supervised learning  
+	* Choosing what features to use  
+* [Multivariate Gaussian distribution](#principal-component-analysis)  
+	* Multivariate Gaussian distribution  
+	* Anomaly detection using the multivariate Gaussian distribution  
+* [Predicting movie ratings](#predicting-movie-ratings)
+	* Problem formulation  
+	* Content based recommendations  
+* [Collaborative filtering](#collaborative-filtering)  
+	* Collaborative filtering  
+	* Collaborative filtering algorithm  
+* [Low rank matrix factorization](#low-rank-matrix-factorization)  
+	* Vectorization: low rank matrix factorization  
+	* Implementational detail: mean normalization  
 * [Reference](#reference)  
+
+***  
+Density estimation  
+----  
+### Problem motivation  
+
+### Gaussian distribution  
+
+### Algorithm  
+
+***  
+Building an anomaly detection system  
+----  
+### Developing and evaluating an anomaly detection system  
+
+### Anomaly detection vs supervised learning  
+
+### Choosing what features to use  
+
+***  
+Multivairate Gaussian distribution  
+---  
+### Multivariate Gaussian distribution  
+
+### Anomaly detection using the multivariate Gaussian distribution  
+
+***  
+Predicting movie ratings  
+---  
+### Problem formulation  
+
+### Content based recommendations  
+
+***  
+Collaborative filtering  
+---  
+### Collaborative filtering  
+
+### Collaborative filtering algorithm  
+
+***  
+Low rank matrix factorization  
+---
+### Vectroization: low rank matrix fatorization  
+
+### Implementational detail: mean normalization  
+
+
 
 ***  
 Reference  
