@@ -92,8 +92,16 @@ Error analysis: Sometimes you need add new features to make mistake anomalous ex
 Multivairate Gaussian distribution  
 ---  
 ### Multivariate Gaussian distribution  
-
+**Multivariate Gaussian distribution model**:  
+![](/picture/the_ninth_week/anomaly_detection9.png)   
+**The conditions of Multivariate Gaussian distribution model**:  
+![](/picture/the_ninth_week/anomaly_detection10.png)   
+![](/picture/the_ninth_week/anomaly_detection11.png)   
+![](/picture/the_ninth_week/anomaly_detection12.png)   
+![](/picture/the_ninth_week/anomaly_detection13.png)   
 ### Anomaly detection using the multivariate Gaussian distribution  
+**Anomaly detection with the multivariate Gaussian**:  
+![](/picture/the_ninth_week/anomaly_detection14.png)  
 
 ***  
 Predicting movie ratings  
