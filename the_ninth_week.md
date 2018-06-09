@@ -120,24 +120,30 @@ Note: If sigma is singular, Two reasons: not satify m>n;  redundant features
 Predicting movie ratings  
 ---  
 ### Problem formulation  
+**Predicting movie ratings**:  
+![](/picture/the_ninth_week/recommendation1.png)     
 
 ### Content based recommendations  
+![](/picture/the_ninth_week/recommendation2.png)  
+![](/picture/the_ninth_week/recommendation3.png)  
 
 ***  
 Collaborative filtering  
 ---  
 ### Collaborative filtering  
-
+![](/picture/the_ninth_week/recommendation4.png)  
+![](/picture/the_ninth_week/recommendation5.png)  
 ### Collaborative filtering algorithm  
+![](/picture/the_ninth_week/recommendation6.png)  
 
 ***  
 Low rank matrix factorization  
 ---
 ### Vectroization: low rank matrix fatorization  
-
+![](/picture/the_ninth_week/recommendation7.png)  
+![](/picture/the_ninth_week/recommendation8.png)  
 ### Implementational detail: mean normalization  
-
-
+![](/picture/the_ninth_week/recommendation9.png)  
 
 ***  
 Reference  
