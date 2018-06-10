@@ -139,14 +139,13 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 	* Advanced topics  
 		* Online learning  
 		* Map reduce and data parallelism  
-	
-		
-		
-
-		
-		
-		
-
+* [The eleventh week](the_eleventh_week.md)  
+	* Photo OCR  
+		* Problem description and pipeline  
+		* Sliding windwos  
+		* Getting lots of data and artificial data  
+		* Ceiling analysis: what part of the pipeline to work on next  
+	* Conclusion  		
 
 **********
 ### Reference  
