@@ -130,6 +130,15 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 	* Low rank matrix factroization  
 		* Vectrization: low rank matrix factroization  
 		* Implementational detiail: mean normalization  
+* [The tenth week](the_tenth_week.md)  
+	* Gradient descent with large datasets  
+		* Learning with large datasets  
+		* Stochastic gradient descent  
+		* Mini batch gradient descent  
+		* Stochastic gradient descent  
+	* Advanced topics  
+		* Online learning  
+		* Map reduce and data parallelism  
 	
 		
 		
