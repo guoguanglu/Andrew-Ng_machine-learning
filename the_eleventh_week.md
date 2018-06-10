@@ -19,7 +19,9 @@ This is my note on Andrew-Ng's machining learning about the eleventh week conten
 * [Conclusion](#conclusion)  
 * [Reference](#reference)  
 
-*** Photo OCR  
+***  
+Photo OCR  
+---  
 ### Problem description and pipeline  
 for example:  
 Photo OCR pipleine:  
