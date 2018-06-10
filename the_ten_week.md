@@ -53,7 +53,7 @@ Advanced topics
 can adapt to change user perference  
 ![](/picture/the_tenth_week/Online_learning1.png)  
 ### Map reduce and data parallelism  
-![](/picture/the_tenth_week/map_reduce.png)  
+![](/picture/the_tenth_week/map_reduce1.png)  
 
 ***  
 Reference  
