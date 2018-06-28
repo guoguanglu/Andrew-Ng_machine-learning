@@ -4,7 +4,7 @@ This is my note on Andrew-Ng's machining learning. Thank you for asking question
 ***
 [![](/picture/the_first_week/fig_ML.jpg)][Andrew-Ng-coursera]  
 - Author: Guo Guanglu  
-- E-mail: 2360889142@qq.com
+- E-mail: 2360889142@qq.com  
 - QQ: 2360889142  
 
 ***
